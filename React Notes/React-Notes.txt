@@ -1,5 +1,5 @@
 
----> What is React JS:- kkkkdkd fgfgfg
+---> What is React JS:-
 
 
 ---> Benifits of Using React:- 
@@ -20,8 +20,8 @@
 
 
 ---> What is component:
-   --> Component is a piece of code that can reuse again and again.
-   --> Example: function (Suppose ek su name ka function banaye then isko reuse kar saktey hai).
+   --> Component is a piece of code that can re-use again and again.
+   --> Example: function (Suppose ek name ka function banaye then isko reuse kar saktey hai).
    --> But more powerful than function (their own props, state).
    --> Example of component: Header, Footer
      
@@ -63,11 +63,22 @@
     4. update state with a Button Click
 
 
----> What is Props:
+---> What is Props In Functional-Component:
   -> Jaise hum kisi function ke under parameter pass kartey thik usi tarah hum component 
      ke under hum props pass kartey hai.
   -> props just like a parameter.
   -> props ka pura matlab Propertie hota hai
+
+  -> In React, props (short for "properties") are a way to pass data from a parent component to child component. Props are an object that contains a set of values that are passed to a component as attributes when it is rendered. The child component can then access these values through the props object.
+
+
+---> What is Props In Class-Component:
+    -> Jab ek component se kisi dusre Component mein data ko transfer karana hota hai then hum   
+       props ka use kartey hai.
+   
+   -> Props just like a parameter.
+
+
 
 
 

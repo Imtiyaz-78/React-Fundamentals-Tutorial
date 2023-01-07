@@ -1,11 +1,11 @@
 
 
-function Students(props){
+function Students(props) {
 
-    console.log("Hi");
-    return(
-        <div>
-            <h1>Hello {props.name}</h1>
+    console.log(props);
+    return (
+        <div style={{ backgroundColor: "skyblue", margin: 10 }}>
+            <h1>Hi {props.name}</h1>
         </div>
     )
 }

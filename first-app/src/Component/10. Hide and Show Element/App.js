@@ -1,7 +1,7 @@
 
 import logo from './logo.svg';
 import './App.css';
-import React,{useState} from 'react';
+// import React from 'react';
 
 
 // import User from './Component/1. Funtional-component/User';
@@ -12,24 +12,17 @@ import React,{useState} from 'react';
 // import Students from './Component/7. Props/Students';
 // import Propss from './Component/8. Props with Class-Component/Propss';
 
-
-
+import React, { useState } from 'react'
 function App() {
-  const [name, setname] = useState("Imtiyaz");
-  function check() {
-    setname("Imtiyaz is a Front-End Developer");
-  }
+  const [show, setShow] = useState(false)
   return (
     <div className="App">
-      <h1>Props in React : </h1>
-      {/* <User /> */}
-      {/* <Test /> */}
-      {/* <JSX /> */}
-      {/* <State /> */}
-      {/* <States /> */}
-      <Students name={name} />
-      <button onClick={check}>Update Name</button> 
-
+      {
+        show ? <h1>Hello World !</h1> : null
+      }
+      <button onClick={() => setShow(true)} >Show</button>
+      <button onClick={() => setShow(false)} >Hide</button>
+      {/* <button onClick={()=>setShow(!show)} >Toggle</button>  */}
     </div>
   );
 }
