@@ -21,14 +21,15 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Props in React : </h1>
+      <h1>Props in React </h1>
       {/* <User /> */}
       {/* <Test /> */}
       {/* <JSX /> */}
-      {/* <State /> */}
+      <State />
       {/* <States /> */}
-      <Students name={name} />
-      <button onClick={check}>Update Name</button> 
+      
+      {/* <Students name={name} /> */}
+      {/* <button onClick={check}>Update Name</button>  */}
 
     </div>
   );

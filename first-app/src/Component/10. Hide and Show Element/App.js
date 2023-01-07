@@ -1,7 +1,6 @@
 
 import logo from './logo.svg';
 import './App.css';
-// import React from 'react';
 
 
 // import User from './Component/1. Funtional-component/User';
@@ -28,9 +27,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-// jjsjsdk
-// sjjkssak
