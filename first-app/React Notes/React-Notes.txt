@@ -1,0 +1,70 @@
+
+---> What is React JS:- kkkkdkd
+
+
+---> Benifits of Using React:- 
+  
+
+---> npm and npx hum kab use kartey hai 
+   --> npm tab use kartey hai jab hamara project pahle se ready rahta hai. 
+   --> while npx hum use tab kartey hai jab new project setup cartey hai. 
+
+
+---> What is differenec b/w package.json and package-lock.json:-
+   --> package-lock.json app ki puri history sambhal kar rakhti hai sare module and Liberary.
+   --> package.json ye hamari application ki details rakhti hai.
+
+
+---> app.test.js isame unit test likhi jati hai testing team check karti hai bug wagairah.
+---> index.js react ki entry point hoti hai.
+
+
+---> What is component:
+   --> Component is a piece of code that can reuse again and again.
+   --> Example: function (Suppose ek su name ka function banaye then isko reuse kar saktey hai).
+   --> But more powerful than function (their own props, state).
+   --> Example of component: Header, Footer
+     
+
+---> What is JSX:
+   --> JSX is javascript XML that means to write HTML In javascript.
+   --> Write HTML and javascript Together.
+   --> Use Like HTML or XML tags.
+
+
+---> What is State(Function Component):
+     State is object hota hai jisme hum data ko store karte same as varibale
+
+
+---> Use of State:
+     Jab bhi hum variable use kartey hai toh hamara component update nahi hota hai
+     and jab hum state use karte hai toh hamara component update or re-render hota hai.
+     State hamara ek container jisme hum data ko store kartey hai simple.
+
+
+---> Define of State:
+    
+
+
+---> update state with a Button Click:
+
+
+---> How State work:
+
+
+---> Interview Question:
+
+
+
+---> State in Class Component:
+    1. Make Class Component
+    2. What is State
+    3. Define State
+    4. update state with a Button Click
+
+
+
+
+
+
+
