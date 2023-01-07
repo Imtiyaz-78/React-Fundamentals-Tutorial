@@ -63,6 +63,12 @@
     4. update state with a Button Click
 
 
+---> What is Props:
+  -> Jaise hum kisi function ke under parameter pass kartey thik usi tarah hum component 
+     ke under hum props pass kartey hai.
+  -> props just like a parameter.
+  -> props ka pura matlab Propertie hota hai
+
 
 
 

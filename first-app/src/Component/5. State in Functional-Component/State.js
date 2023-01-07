@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 function State() {
     const [data, setdata] = useState("Imtiyaz");
+    
     function updatData() {
         setdata("Imtiyaz is a Front End Developer");
     }
