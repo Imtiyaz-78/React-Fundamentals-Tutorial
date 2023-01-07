@@ -1,7 +1,7 @@
 
 import logo from './logo.svg';
 import './App.css';
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 
 
 // import User from './Component/1. Funtional-component/User';
@@ -25,9 +25,9 @@ function App() {
       {/* <User /> */}
       {/* <Test /> */}
       {/* <JSX /> */}
-      <State />
+      {/* <State /> */}
       {/* <States /> */}
-      
+  
       {/* <Students name={name} /> */}
       {/* <button onClick={check}>Update Name</button>  */}
 
