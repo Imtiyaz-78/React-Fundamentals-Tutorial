@@ -1,0 +1,17 @@
+.container{
+    background-color: skyblue;
+ 
+}
+
+.btn1, .btn2{
+    background-color: salmon;
+    color: black;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 13px;
+ 
+}
+
+.btn1{
+    margin-right: 10px;
+}
