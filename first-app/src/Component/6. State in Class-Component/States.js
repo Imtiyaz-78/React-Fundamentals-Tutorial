@@ -4,14 +4,14 @@ import React, { Component } from 'react';
 class States extends Component {
     constructor() {
         super();
-        this.state = {
-            Data: 0,
-        }
+        this.state = { Data: 0,
+         }
     }
 
-    Call() {
-       this.setState({Data:this.state.Data+1})
-    }
+    Call() { // This is a function 
+        this.setState({ Data: (this.state.Data + 1) })
+    };
+    
     render() {
         return (
             <div>
@@ -24,3 +24,5 @@ class States extends Component {
 
 
 export default States;
+
+

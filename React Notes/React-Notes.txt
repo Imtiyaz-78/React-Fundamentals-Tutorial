@@ -5,9 +5,11 @@
 ---> Benifits of Using React:- 
   
 
+
 ---> npm and npx hum kab use kartey hai 
    --> npm tab use kartey hai jab hamara project pahle se ready rahta hai. 
    --> while npx hum use tab kartey hai jab new project setup cartey hai. 
+
 
 
 ---> What is differenec b/w package.json and package-lock.json:-
@@ -15,8 +17,10 @@
    --> package.json ye hamari application ki details rakhti hai.
 
 
+
 ---> app.test.js isame unit test likhi jati hai testing team check karti hai bug wagairah.
 ---> index.js react ki entry point hoti hai.
+
 
 
 ---> What is component:
@@ -26,14 +30,17 @@
    --> Example of component: Header, Footer
      
 
+
 ---> What is JSX:
    --> JSX is javascript XML that means to write HTML In javascript.
    --> Write HTML and javascript Together.
    --> Use Like HTML or XML tags.
 
 
+
 ---> What is State(Function Component):
      State is object hota hai jisme hum data ko store karte same as varibale
+
 
 
 ---> Use of State:
@@ -58,16 +65,18 @@
 
 ---> State in Class Component:
     1. Make Class Component
-    2. What is State
+    2. What is State: State is a Data Container Hota hai jisme name, value etc store karsaktye h
     3. Define State
     4. update state with a Button Click
 
 
----> What is Props In Functional-Component:
+
+---> What is Props In Functional-Component:(v.v.i)
   -> Jaise hum kisi function ke under parameter pass kartey thik usi tarah hum component 
      ke under hum props pass kartey hai.
   -> props just like a parameter.
   -> props ka pura matlab Propertie hota hai
+
 
   -> In React, props (short for "properties") are a way to pass data from a parent component to child component. Props are an object that contains a set of values that are passed to a component as attributes when it is rendered. The child component can then access these values through the props object.
 
@@ -77,6 +86,11 @@
        props ka use kartey hai.
    
    -> Props just like a parameter.
+
+---> JSX ko humlog Bina React ke bhi Use kar saktey by making .jsx extension
+
+
+
 
 
 
