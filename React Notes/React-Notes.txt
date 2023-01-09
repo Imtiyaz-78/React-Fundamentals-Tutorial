@@ -62,10 +62,9 @@
 ---> Interview Question:
 
 
-
 ---> State in Class Component:
     1. Make Class Component
-    2. What is State: State is a Data Container Hota hai jisme name, value etc store karsaktye h
+    2. What is State: State is a Data Container Hota hai jisme name, value etc store kar saktye hai
     3. Define State
     4. update state with a Button Click
 
@@ -76,6 +75,7 @@
      ke under hum props pass kartey hai.
   -> props just like a parameter.
   -> props ka pura matlab Propertie hota hai
+
 
 
   -> In React, props (short for "properties") are a way to pass data from a parent component to child component. Props are an object that contains a set of values that are passed to a component as attributes when it is rendered. The child component can then access these values through the props object.
@@ -91,11 +91,34 @@
 
 
 
+---> Life Cycle Method with Class Component in React:
+   --> Types of Life Cycle Method
+       1. Mounting
+       2. Updating
+       3. Unmounting
+          
+
+---> Life cycle Method kab apply hota hai 
+   --> When Component is Loaded.
+   --> when component is updated with props and state.
+   --> When Componentis removed means hide ho jata tab.
+
+
+--->Construtor
+   Jab hum class ko call kartey then constructor apne aap hi call ho jata hai
+
+
+---> what is Super Method:
+     Parent Class ko call karne ke liye Super method use kartey hai.
 
 
 
+---> What is Render() Method:
+    1. render() Method means Uplod karna
+    2. Execute Karke Represent karna.
+    3. render() Method only we use in Class Component.
+    4. render() is a life Cycle Method.
 
 
 
-
-
+---> Why we use Rendrer() Method:

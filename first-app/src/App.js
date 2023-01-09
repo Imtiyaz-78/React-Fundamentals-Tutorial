@@ -2,8 +2,6 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import HideAndShow from './Component/11. Hide and Show Element/HideandShow';
-
 
 
 // import User from './Component/1. Funtional-component/User';
@@ -16,7 +14,12 @@ import HideAndShow from './Component/11. Hide and Show Element/HideandShow';
 // import Data from './Component/9. Props wirh Class-Component/PropsClass';
 // import GetValue from './Component/10. Get Input Box Value/GetValue';
 // import HideAndShow from './Component/11. Hide and Show Element/HideandShow';
-
+// import Form from './Component/12. Handle Form/Form';
+// import Profile from './Component/13. Conditional Rendering/Profiles';
+// import Login from './Component/14. Basic Form Validation/Login';
+// import Constuctor from './Component/15. Life Cycle Method with Class Componenet/1. Contructor Life Cycle Method/Constructor';
+// import Render from './Component/15. Life Cycle Method with Class Componenet/2. Render Life Cycle Method/Render';
+import Mount from './Component/15. Life Cycle Method with Class Componenet/3. componentDidMount Life Cycle method/Mount';
 
 
 function App() {
@@ -42,8 +45,15 @@ function App() {
             {/* <Data name="IMTIYAZ" Email="Imtiyazmd803@gmail.com"/> */}
             {/* <GetValue /> */}
 
-            <HideAndShow />
+            {/* <HideAndShow /> */}
+            {/* <Form /> */}
+            {/* <Profile /> */}
+            {/* <Login /> */}
+            {/* <Constuctor/> */}
+            {/* <Render name ={name}/> */}
+            {/* <button onClick={check}>Update Name</button>  */}
 
+            <Mount />
 
 
 

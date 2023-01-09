@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 class States extends Component {
     constructor() {
         super();
-        this.state = { Data: 0,
+        this.state = {
+             Data: 0,
          }
     }
 
