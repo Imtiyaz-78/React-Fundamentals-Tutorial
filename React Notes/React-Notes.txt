@@ -122,3 +122,17 @@
 
 
 ---> Why we use Rendrer() Method:
+
+
+
+---> What is componentDidMount:
+     kisi chij ko load kar rahe hai or Load ho raha hai toh Mounting.
+     When our Component Load or Render then call componentDidMount().
+
+
+---> What is componentDidUpdte:
+     when component is update that's called componentDidUpdted
+
+
+---> What is componentWillMount:
+     When Remove component it's called componentWillMount
