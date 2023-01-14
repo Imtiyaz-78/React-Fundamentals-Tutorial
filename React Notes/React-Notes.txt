@@ -127,20 +127,51 @@
 
 ---> What is componentDidMount:
      kisi chij ko load kar rahe hai or Load ho raha hai toh Mounting.
-     When our Component Load or Render then call componentDidMount().
+     When our Component Load or Render then called componentDidMount().
+ 
+ --> Use of componentDidMount:
+    --> Iska use humlog tab kartey hai jab hum API Call kartey hai.
+
+    --> componentDidMount tab chalta hai jab hamara HTML files ready ho chuka hoga.
+
+    --> koee bhi aesa operation jisme humko hide show karwana ho toh hum componentDidMount ke under kartey hai.
+
+
+   --> koee bhi aesa operation jo hamare HTML par depend ho toh componentDidMount ke under kartey hai.
+
+   --> iska matlab hamara HTML ready hi nhi hai and API call kar diye then code kahi na kahi break ho sakta hai so we use componentDidMount method.
+
+
+   --> Best Examaple of componentDidMount API call karna
+      jab tak hamara HTML DOM sab Load ho chuka hoga.
+
+   --> Did means ho chuka 
+   
+   --> API ko baar baar toh call karna nahi isliye componentDidMount method use kartey hai single time upload hota hai.
+  
+
+
 
 
 ---> What is componentDidUpdte:
-     when component is update that's called componentDidUpdted
+     1. when component is update that's called componentDidUpdted
+
+
+
+
+
+
+
+
 
 
 ---> What is componentWillMount:
      When Remove component it's called componentWillMount
 
-   
 
 
 
 
 
-   
+
+
