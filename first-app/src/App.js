@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 
-
 // import User from './Component/1. Funtional-component/User';
 // import Test from './Component/2. Class-component/Test';
 // import JSX from './Component/3. JSX/Jsx';
@@ -19,7 +18,11 @@ import React, { useState } from 'react';
 // import Login from './Component/14. Basic Form Validation/Login';
 // import Constuctor from './Component/15. Life Cycle Method with Class Componenet/1. Contructor Life Cycle Method/Constructor';
 // import Render from './Component/15. Life Cycle Method with Class Componenet/2. Render Life Cycle Method/Render';
-import Mount from './Component/15. Life Cycle Method with Class Componenet/3. componentDidMount Life Cycle method/Mount';
+// import Mount from './Component/15. Life Cycle Method with Class Componenet/3. componentDidMount Life Cycle method/Mount';
+// import Update from './Component/15. Life Cycle Method with Class Componenet/4. componentDidUpdate Life Cycle Method/Update';
+// import ShouldUpdate from './Component/15. Life Cycle Method with Class Componenet/5. shouldComponentUpdate/ShouldUpdate';
+import Unmount from './Component/15. Life Cycle Method with Class Componenet/6. componentWillUnmount in Life Cycle/Unmount';
+
 
 
 function App() {
@@ -53,7 +56,13 @@ function App() {
             {/* <Render name ={name}/> */}
             {/* <button onClick={check}>Update Name</button>  */}
 
-            <Mount />
+            {/* <Mount /> */}
+            {/* <Update /> */}
+            {/* <ShouldUpdate /> */}
+            <Unmount />
+
+
+
 
 
 

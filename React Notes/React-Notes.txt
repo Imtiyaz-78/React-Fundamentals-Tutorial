@@ -49,9 +49,10 @@
      State hamara ek container jisme hum data ko store kartey hai simple.
 
 
----> Define of State:
-    
+---> Define of State: 
+     State is object hota hai jisme hum data ko store karte same as varibale
 
+    
 
 ---> update state with a Button Click:
 
@@ -69,12 +70,11 @@
     4. update state with a Button Click
 
 
-
 ---> What is Props In Functional-Component:(v.v.i)
   -> Jaise hum kisi function ke under parameter pass kartey thik usi tarah hum component 
      ke under hum props pass kartey hai.
   -> props just like a parameter.
-  -> props ka pura matlab Propertie hota hai
+  -> props ka pura matlab Propertie hota hai.
 
 
 
@@ -151,19 +151,53 @@
   
 
 
-
-
 ---> What is componentDidUpdte:
-     1. when component is update that's called componentDidUpdted
-
-
-
-
-
+     1. when component is update that's called componentDidUpdted.
+     2. componentDidUpdte state or props ke update ho par render hota hai.
+     3. Suppose when click on button then print on console.
 
 
 ---> What is componentWillMount:
-     When Remove component it's called componentWillMount
+     1. Jab bhi component DOM se remove hoga then componentWillMount call hoga.
+     2. Profits: Suppose API call kar rahe hai and immediately component ko remove karna hai toh us request ko cancel kar saktey hai.
+     3. koee data loading ho rahi hai usko cancel kar saktey hai.
+     4. koee function bhi call kar saktey hai.
+
+
+---> What is shouldComponenetUpdate:
+     1. By default ye component ko rendering nahi hone deta hai that means ye false return karta h.
+     2. by default false return karta ek tarah se block kar deta hai.
+     3. Iska mainly use specific condtion ke upar stop kar saktey hai.
+     4. Ex: if(this.state.counter > 10){ then do something}
+     5. Aese use karne se application ki performance increase hogi.
+     5. jab kisi component ko render karna ho ya nahi karna ho then use it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
