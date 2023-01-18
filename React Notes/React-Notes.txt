@@ -162,9 +162,6 @@
 
 
 
-
-
-
 ---> What is componentWillMount:
      When Remove component it's called componentWillMount
 
