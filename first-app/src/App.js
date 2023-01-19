@@ -21,7 +21,10 @@ import React, { useState } from 'react';
 // import Mount from './Component/15. Life Cycle Method with Class Componenet/3. componentDidMount Life Cycle method/Mount';
 // import Update from './Component/15. Life Cycle Method with Class Componenet/4. componentDidUpdate Life Cycle Method/Update';
 // import ShouldUpdate from './Component/15. Life Cycle Method with Class Componenet/5. shouldComponentUpdate/ShouldUpdate';
-import Unmount from './Component/15. Life Cycle Method with Class Componenet/6. componentWillUnmount in Life Cycle/Unmount';
+// import Unmount from './Component/15. Life Cycle Method with Class Componenet/6. componentWillUnmount in Life Cycle/Unmount';
+
+// import Imtiyaz from './Component/16. Hooks in React Js (V.V.I)/1. UseEffect in Hooks/Imtiyaz';
+import UseEffectWithStateAndProps from './Component/16. Hooks in React Js (V.V.I)/1. UseEffect in Hooks/UseEffectWithStateAndProps';
 
 
 
@@ -59,7 +62,9 @@ function App() {
             {/* <Mount /> */}
             {/* <Update /> */}
             {/* <ShouldUpdate /> */}
-            <Unmount />
+            {/* <Unmount /> */}
+            {/* <Imtiyaz /> */}
+            <UseEffectWithStateAndProps />
 
 
 

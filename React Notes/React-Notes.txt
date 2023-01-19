@@ -174,13 +174,30 @@
 
 
 
+<----------------------------------> Hooks in React Js (V.V.I) <---------------------------------->
+
+1. What is Hooks in React Js:
+   1. Jab hum class component use kartey hai toh uske under life cycle method ke in-built 
+      feature hotey hai like state, life cycle, pure component but Functional component ke under nahi hoti hai usi feature ko use karne ke liye humlog Hooks ka use kartey hai.
+  
+   2. With Hooks, we can use class component feature in Functional component such as state,
+      life cycle, pure component, etc.
+   
+   3. Hooks are a new addition in React 16.8. They let you use state and other 
+      React features without writing a class.
 
 
 
+2. What is useEffect Hook in React Js:
+   1. This is Similar to componentDidMount and componentDidUpdate:
 
+   2. If you’re familiar with React class lifecycle methods, you can think of useEffect
+      Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
 
-
-
+   3. useEffect Hook are combined componentDidMount, componentDidUpdate and   componentWillMount      
+ 
+   
+   
 
 
 
