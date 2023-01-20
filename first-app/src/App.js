@@ -24,7 +24,13 @@ import React, { useState } from 'react';
 // import Unmount from './Component/15. Life Cycle Method with Class Componenet/6. componentWillUnmount in Life Cycle/Unmount';
 
 // import Imtiyaz from './Component/16. Hooks in React Js (V.V.I)/1. UseEffect in Hooks/Imtiyaz';
-import UseEffectWithStateAndProps from './Component/16. Hooks in React Js (V.V.I)/1. UseEffect in Hooks/UseEffectWithStateAndProps';
+// import UseEffectWithStateAndProps from './Component/16. Hooks in React Js (V.V.I)/1. UseEffect in Hooks/UseEffectWithStateAndProps';
+
+// import First from './Component/16. Hooks in React Js (V.V.I)/3. Styling In React JS/First';
+// import Boot from './Component/16. Hooks in React Js (V.V.I)/4. BootStrap/Boot';
+// import ArrayListWithmap from './Component/16. Hooks in React Js (V.V.I)/4. BootStrap/ArrayListWithmap';
+// import List from './Component/16. Hooks in React Js (V.V.I)/4. BootStrap/1. List With BootStrap Table/List';
+import NestedList from './Component/16. Hooks in React Js (V.V.I)/4. BootStrap/2. Nested List In React Js/NestedList';
 
 
 
@@ -64,7 +70,12 @@ function App() {
             {/* <ShouldUpdate /> */}
             {/* <Unmount /> */}
             {/* <Imtiyaz /> */}
-            <UseEffectWithStateAndProps />
+            {/* <UseEffectWithStateAndProps /> */}
+            {/* <First /> */}
+            {/* <Boot /> */}
+            {/* <ArrayListWithmap /> */}
+            {/* <List /> */}
+            <NestedList />
 
 
 

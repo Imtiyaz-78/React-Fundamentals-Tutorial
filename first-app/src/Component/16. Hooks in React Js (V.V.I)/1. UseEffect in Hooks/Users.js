@@ -7,6 +7,7 @@ function Users(Props) {
         
 
     },[Props.getCount])
+    
 
     return (
         <div>

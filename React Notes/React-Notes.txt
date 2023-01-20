@@ -196,8 +196,12 @@
 
    3. useEffect Hook are combined componentDidMount, componentDidUpdate and   componentWillMount      
  
-   
-   
+
+---> Style type in React Js:
+     1. Use the Normal Stylesheet (External CSS).
+     2. Style with variable or inline Style (Inline CSS).
+     3. CSS with Module.   
+
 
 
 
