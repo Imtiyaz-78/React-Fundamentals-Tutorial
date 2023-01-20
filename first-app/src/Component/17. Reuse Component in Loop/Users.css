@@ -1,0 +1,13 @@
+span {
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: skyblue;
+    padding: 10px;
+    line-height: 70px;
+    border-radius: 1px;
+}
+
+.btn{
+    margin-left: 10px;
+}

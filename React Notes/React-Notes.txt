@@ -204,6 +204,13 @@
 
 
 
+2. What is React Fragment:
+   1. Fragments is a list of children without adding extra nodes to the DOM.
+   2. A common pattern in React is for a component to return multiple elements.
+   3. Fragment ko as Wrapper use kartey hai.
+
+   --> React Fragment ek pattern hota hai jo multiple elements or multiple component ko
+       Handle Karne ke liye.
 
 
 
