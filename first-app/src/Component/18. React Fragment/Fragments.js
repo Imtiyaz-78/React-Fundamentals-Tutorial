@@ -15,7 +15,7 @@ function Fragments() {
 
         // 2. Second way
         <>
-        <h1>Hi Imtiyaz</h1>
+        <h1 style={{backgroundColor:"skyblue", fontWeight:"bold", borderRadius:"70px"}}>Hello Fragment</h1>
         <h1>Hi Developer</h1>
         </>
 
@@ -23,4 +23,4 @@ function Fragments() {
     )
 }
 
-export default Fragments
+export default Fragments;

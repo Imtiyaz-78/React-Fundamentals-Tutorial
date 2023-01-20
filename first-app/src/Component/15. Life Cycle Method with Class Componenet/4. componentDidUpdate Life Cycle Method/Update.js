@@ -18,7 +18,7 @@ class Update extends Component {
 
 
     render() {
-        console.log("render")
+        console.log("render");
         return (
             <div>
                 <h1>Component Did update {this.state.counter}</h1>
@@ -29,3 +29,5 @@ class Update extends Component {
 }
 
 export default Update;
+
+
