@@ -228,18 +228,22 @@
    pure component ek features hota hai hum just react se import karna hota hai then use kartey hai.
 
 
+5. What is useMemo Hook in React JS:
+   1. Ye application ki performanceko enhance karta hai.
+   2. In class Componenet ke under PureComponents use kartey hai same in Functional 
+   component ke under humlog useMemo use kartey hai.
+
+   3. Dono ka same kaam hai enahance karna application ko.
+
+   1. The React useMemo Hook returns a memoized value.
+   2. Think of memoization as caching a value so that it does not need to be recalculated.
+   3. The useMemo Hook only runs when one of its dependencies update.
+   4. This can improve performance.
+   5. The useMemo and useCallback Hooks are similar.
 
 
 
-
-
-
-
-
-
-
-
-
+   
 
 
 
