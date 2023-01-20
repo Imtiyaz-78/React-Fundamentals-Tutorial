@@ -213,6 +213,15 @@
        Handle Karne ke liye.
 
 
+3. What is Lifting State Up:
+   1.jab hum child Componenet se Parent component data send kartey hai then called Lifting state up.
+   
+   2. In React, sharing state is accomplished by moving it up to the closest common ancestor of the components that need it. This is called “lifting state up”
+
+   3. send the Data Child to Parent Componenet that's called Lifting State Up.
+
+   4. Fragment ke under className nahi bana saktey hai only key le saktey hai.
+
 
 
 
