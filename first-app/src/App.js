@@ -33,7 +33,8 @@ import React, { useState } from 'react';
 // import NestedList from './Component/16. Hooks in React Js (V.V.I)/4. BootStrap/2. Nested List In React Js/NestedList';
 // import Reuse from './Component/17. Reuse Component in Loop/Reuse';
 // import Fragments from './Component/18. React Fragment/Fragments';
-import ParentComponent from './Component/19. Lifting State Up/ParentComponent';
+// import ParentComponent from './Component/19. Lifting State Up/ParentComponent';
+import PureComponents from './Component/20. Pure Component/PureComponents';
 
 
 
@@ -81,7 +82,7 @@ function App() {
             {/* <NestedList /> */}
             {/* <Reuse /> */}
             {/* <Fragments /> */}
-            <ParentComponent />
+            <PureComponents />
 
 
 

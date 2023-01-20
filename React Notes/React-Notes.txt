@@ -224,7 +224,8 @@
 
 
 
-
+4. Pure Component:
+   pure component ek features hota hai hum just react se import karna hota hai then use kartey hai.
 
 
 
