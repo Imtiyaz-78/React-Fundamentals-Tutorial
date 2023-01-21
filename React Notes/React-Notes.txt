@@ -263,10 +263,10 @@
 
 
 
-7. What is useRef in Functional Componenet:
+7. What is useRef Hook in Functional Componenet:
    1. useRef is a Hook jisko hum only use inside the Functional Componenet.
-   2. 
-   3.
+   2. jab hame style change karna ho, value get karna ho ye sabko handle karne ke liye we use useRef.
+   3. ref property hoti hai get karne ke liye.
    4.
    5.
 
