@@ -283,4 +283,67 @@
 
 
 
+---> what is Controlled Component in React JS:
+      In React, Controlled Components are those in which form's data is  handled by the component's state.
 
+      It takes its current value through props and makes changes through callbacks like onClick,onChange,
+
+
+
+----> what is UnControlled Component in React JS
+      1. Uncontrolled Components are those component jiske under input filed ho and wo input
+         filed React ke state ke through controlled nhi honi chahiye. 
+      
+      2. ya toh ye javascript ke through controlled ho rahi hogi ya toh ref ke through.
+
+      3. Uncontrolled Components are the components that are not controlled by the React state
+         and they are only handled by the DOM.
+
+
+----> What is HOC(Higher Order Component):
+      --> Higher order component are those Componenet who takes component as a input and give output
+          as component that's called Higher Order Componenet.
+      
+      --> A higher-order component (HOC) is an advanced technique in React for reusing component  
+           logic.
+
+     --> A higher-order component is a function that takes a component and returns a new component.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     

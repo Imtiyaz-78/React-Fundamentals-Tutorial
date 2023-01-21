@@ -39,7 +39,9 @@ import React, { useState } from 'react';
 // import Same from './Component/16. Hooks in React Js (V.V.I)/6. Ref In Class Component/Same';
 // import UseRefInFunctionalComponent from './Component/16. Hooks in React Js (V.V.I)/6. useRef In Functional Component/UseRefInFunctionalComponent';
 // import Parentforward from './Component/16. Hooks in React Js (V.V.I)/7. forwardRef in Hooks/Parentforward';
-import Controlled from './Component/21. Controlled Component/Controlled';
+// import Controlled from './Component/21. Controlled Component/Controlled';
+// import Uncontrolled from './Component/22. Uncontrolled Component/Uncontrolled';
+import HocComponent from './Component/22. Higher Order Component(HOC)/HocComponent';
 
 
 
@@ -91,7 +93,10 @@ function App() {
             {/* <Memo /> */}
             {/* <UseRefInFunctionalComponent /> */}
             {/* <Parentforward /> */}
-            <Controlled />
+            {/* <Controlled /> */}
+            {/* <Uncontrolled /> */}
+            <HocComponent />
+
 
 
 
