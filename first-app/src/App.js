@@ -37,7 +37,9 @@ import React, { useState } from 'react';
 // import PureComponents from './Component/20. Pure Component/PureComponents';
 // import Memo from './Component/16. Hooks in React Js (V.V.I)/5. UseMemo Hook in React JS/Memo';
 // import Same from './Component/16. Hooks in React Js (V.V.I)/6. Ref In Class Component/Same';
-import UseRefInFunctionalComponent from './Component/16. Hooks in React Js (V.V.I)/6. useRef In Functional Component/UseRefInFunctionalComponent';
+// import UseRefInFunctionalComponent from './Component/16. Hooks in React Js (V.V.I)/6. useRef In Functional Component/UseRefInFunctionalComponent';
+// import Parentforward from './Component/16. Hooks in React Js (V.V.I)/7. forwardRef in Hooks/Parentforward';
+import Controlled from './Component/21. Controlled Component/Controlled';
 
 
 
@@ -87,7 +89,9 @@ function App() {
             {/* <Fragments /> */}
             {/* <PureComponents /> */}
             {/* <Memo /> */}
-            <UseRefInFunctionalComponent />
+            {/* <UseRefInFunctionalComponent /> */}
+            {/* <Parentforward /> */}
+            <Controlled />
 
 
 

@@ -267,11 +267,19 @@
    1. useRef is a Hook jisko hum only use inside the Functional Componenet.
    2. jab hame style change karna ho, value get karna ho ye sabko handle karne ke liye we use useRef.
    3. ref property hoti hai get karne ke liye.
-   4.
-   5.
+   4. It can be used to access a DOM element directly.
+   5. The useRef Hook allows you to persist values between renders.
+   6. It can be used to store a mutable value that does not cause a re-render when updated.
 
 
-   
+
+8. forwardRef in Hook in Functional Componenet:
+   1. Suppose ek input filed child component mein hai and ek input filed parent component mein
+      hai then mujhe DOM mein change karna then we will be use forwardRef
+     
+   2. React.forwardRef accepts a render function that receives props and ref parameters and 
+      returns a React node.
+  
 
 
 
