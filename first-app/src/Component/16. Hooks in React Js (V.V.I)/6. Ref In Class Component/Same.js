@@ -6,6 +6,7 @@ class Same extends React.Component {
         super();
         this.inputRef = createRef(); // inputRef kuchh bhi rakh saktey hai anything 
     }
+    
     componentDidMount() {
         // console.warn(this.inputRef.current.value="1000");
     }

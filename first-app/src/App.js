@@ -36,7 +36,8 @@ import React, { useState } from 'react';
 // import ParentComponent from './Component/19. Lifting State Up/ParentComponent';
 // import PureComponents from './Component/20. Pure Component/PureComponents';
 // import Memo from './Component/16. Hooks in React Js (V.V.I)/5. UseMemo Hook in React JS/Memo';
-import Same from './Component/16. Hooks in React Js (V.V.I)/6. Ref In Class Component/Same';
+// import Same from './Component/16. Hooks in React Js (V.V.I)/6. Ref In Class Component/Same';
+import UseRefInFunctionalComponent from './Component/16. Hooks in React Js (V.V.I)/6. useRef In Functional Component/UseRefInFunctionalComponent';
 
 
 
@@ -86,7 +87,7 @@ function App() {
             {/* <Fragments /> */}
             {/* <PureComponents /> */}
             {/* <Memo /> */}
-            <Same />
+            <UseRefInFunctionalComponent />
 
 
 

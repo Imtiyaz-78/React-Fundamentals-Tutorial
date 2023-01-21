@@ -244,12 +244,33 @@
 
 
 
-6. What is Ref in React Js:
+6. What is Ref in React Js (Class Componenet):
    1. Ref Directly Dom ko manipulate karta hai jabardasti kisi ka color add kar diya
       kisi elements ka property get karliya.
 
    2. Example form mein value get karni hai validation bhi lagani hai colors bhi change 
     karna hai, focus bhi karni ho then iss case mein we can use.
+
+   
+   3.Refs provide a way to access DOM nodes or React elements created in the render method.
+
+   4. When to Use Refs
+      There are a few good use cases for refs:
+      1. Managing focus, text selection, color apply or media playback.
+      2. Triggering imperative animations.
+      3. Integrating with third-party DOM libraries.
+
+
+
+
+7. What is useRef in Functional Componenet:
+   1. useRef is a Hook jisko hum only use inside the Functional Componenet.
+   2. 
+   3.
+   4.
+   5.
+
+
    
 
 
