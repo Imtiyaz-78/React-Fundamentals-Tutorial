@@ -228,6 +228,7 @@
    pure component ek features hota hai hum just react se import karna hota hai then use kartey hai.
 
 
+
 5. What is useMemo Hook in React JS:
    1. Ye application ki performanceko enhance karta hai.
    2. In class Componenet ke under PureComponents use kartey hai same in Functional 
@@ -243,6 +244,12 @@
 
 
 
+6. What is Ref in React Js:
+   1. Ref Directly Dom ko manipulate karta hai jabardasti kisi ka color add kar diya
+      kisi elements ka property get karliya.
+
+   2. Example form mein value get karni hai validation bhi lagani hai colors bhi change 
+    karna hai, focus bhi karni ho then iss case mein we can use.
    
 
 

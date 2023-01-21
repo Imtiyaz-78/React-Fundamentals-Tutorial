@@ -1,4 +1,4 @@
-import {useMemo, useState } from "react"
+import { useMemo, useState } from "react"
 /*
 // This Normal not example of usememo
 function Memo() {
@@ -38,11 +38,12 @@ function Memo() {
     const [getItem, setItem] = useState(10);
 
 
-    const MutiplecountMemo = useMemo(function multipleCount() {
+    const MutiplecountMemo = useMemo(function kuchhbhi() {
         console.log("multipleCount");
         return getcount * 5
     }, [getcount]);
 
+    
     return (
         <div>
             <h1>Count: {getcount} </h1>
