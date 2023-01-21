@@ -174,7 +174,8 @@
 
 
 
-<----------------------------------> Hooks in React Js (V.V.I) <---------------------------------->
+<-------------------------------> Hooks in React Js (V.V.I) <----------------------------->
+
 
 1. What is Hooks in React Js:
    1. Jab hum class component use kartey hai toh uske under life cycle method ke in-built 
@@ -301,17 +302,24 @@
 
 
 ----> What is HOC(Higher Order Component):
-      --> Higher order component are those Componenet who takes component as a input and give output
-          as component that's called Higher Order Componenet.
+      1. Higher order component are those Componenet who takes component as a input and  give 
+         output as component that's called Higher Order Componenet.
       
-      --> A higher-order component (HOC) is an advanced technique in React for reusing component  
-           logic.
+      2. A higher-order component (HOC) is an advanced technique in React for reusing   
+         component logic. 
 
-     --> A higher-order component is a function that takes a component and returns a new component.
+     3. A higher-order component is a function that takes a component and returns a new  
+        component.    
 
 
 
 
+<-----------------------------------> React Router <--------------------------------------> 
+
+1. 6.2.2 --> 6 major update --> 2 --> minor updates ---->2 patch
+
+
+1. What is Params:
 
 
 

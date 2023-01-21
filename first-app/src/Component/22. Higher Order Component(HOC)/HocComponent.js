@@ -3,7 +3,6 @@ import React, { useState } from "react"
 
 function HocComponent() {
 
-
     return (
         <div>
             <h1>Higher Order Component</h1>
@@ -15,12 +14,14 @@ function HocComponent() {
 }
 
 
+
 function HOCred(props) {
     return (
         <h2 style={{ backgroundColor: "Red", width: 300, color: "black" }} >Red<props.cmp /></h2>
     )
 
 }
+
 
 
 function HOCgreen(props) {

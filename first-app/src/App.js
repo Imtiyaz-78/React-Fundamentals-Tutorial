@@ -2,6 +2,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 // import User from './Component/1. Funtional-component/User';
 // import Test from './Component/2. Class-component/Test';
@@ -41,7 +42,13 @@ import React, { useState } from 'react';
 // import Parentforward from './Component/16. Hooks in React Js (V.V.I)/7. forwardRef in Hooks/Parentforward';
 // import Controlled from './Component/21. Controlled Component/Controlled';
 // import Uncontrolled from './Component/22. Uncontrolled Component/Uncontrolled';
-import HocComponent from './Component/22. Higher Order Component(HOC)/HocComponent';
+// import HocComponent from './Component/22. Higher Order Component(HOC)/HocComponent';
+
+import Home from './Component/23. React Router (V.V.I)/Home';
+import About from './Component/23. React Router (V.V.I)/About';
+import NavBar from './Component/23. React Router (V.V.I)/NavBar';
+import Page404 from './Component/23. React Router (V.V.I)/2. 404 Page and Redirect/Page404';
+import StudentName from './Component/23. React Router (V.V.I)/3. Params in React Router/StudentName';
 
 
 
@@ -95,7 +102,22 @@ function App() {
             {/* <Parentforward /> */}
             {/* <Controlled /> */}
             {/* <Uncontrolled /> */}
-            <HocComponent />
+            {/* <HocComponent /> */}
+
+            <BrowserRouter>
+                <NavBar />
+                <Routes>
+
+                    <Route path='/' element={<Home />}></Route>
+                    <Route path="/About" element={<About />}></Route>
+                    {/* <Route path='/*' element={<Page404 />}></Route> */}
+                    <Route path='/*' element={<Navigate to="/" />}></Route>
+                    <Route path="/StudentName/:name" element={<StudentName />}></Route>
+
+
+                </Routes>
+
+            </BrowserRouter>
 
 
 
