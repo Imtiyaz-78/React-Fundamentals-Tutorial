@@ -2,6 +2,7 @@
 import { Link, useNavigate } from "react-router-dom"
 
 function Home() {
+    
     const navigate = useNavigate();
     const NaToPage = (url) => {
         navigate(url)

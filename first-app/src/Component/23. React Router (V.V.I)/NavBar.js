@@ -11,7 +11,7 @@ function NavBar() {
                 <li><NavLink NavLink className="Nav-Link" to="/About">About</NavLink></li>
                 <li><NavLink NavLink className="Nav-Link" to="/Contact">Contact</NavLink></li>
                 <li><NavLink NavLink className="Nav-Link" to="/Filter">Filter</NavLink></li>
-                <li><NavLink NavLink className="Nav-Link" to="/StudentName/Abbu">Abbu</NavLink></li>
+                <li><NavLink NavLink className="Nav-Link" to="/Login">Login</NavLink></li>
                
             </ul>
         </div>

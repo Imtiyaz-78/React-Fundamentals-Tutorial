@@ -11,7 +11,7 @@ function Contact() {
 
             <h1>Contact Us Page</h1>
             <h2>This is my contact details Guys</h2>
-            <Link to="Company">Company</Link><br />
+            <Link to="Company" >Company</Link><br />
             <Link to="Store">Store</Link><br />
             <Link to="Other">Other</Link>
             <Outlet />

@@ -314,7 +314,7 @@
 
 
 
-<-----------------------------------> React Router <--------------------------------------> 
+<--------------------------------------> React Router <--------------------------------------> 
 
 1. 6.2.2 --> 6 major update --> 2 --> minor updates ----> 2 patch
 
@@ -336,6 +336,20 @@
 
 
 
+4. What is useLocation React Router Hook:
+   1. how to pass state inside the useLocation.
+   2. what is the Hook of useLocation.
+   3. what is hash.
+   4. what is params.
+   5. How to pass params.
+
+   --> If directly pages ko refresh kartey hai toh key :"default" milta hai.
+   --> And If hum ek page se kisi dusre page par jatey hai unique key milta hai automatically.
+   --> And If we pass custom key then custom key hi show hoga.
+
+
+5. What is Protected Route:
+   1. Protected route hum log tab lagatey hai jab kuchh hide karni ho data mainly for during Authen..
 
 
 
