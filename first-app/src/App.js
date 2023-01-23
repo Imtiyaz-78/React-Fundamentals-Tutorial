@@ -2,7 +2,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useSearchParams } from 'react-router-dom';
 
 // import User from './Component/1. Funtional-component/User';
 // import Test from './Component/2. Class-component/Test';
@@ -49,6 +49,7 @@ import About from './Component/23. React Router (V.V.I)/About';
 import NavBar from './Component/23. React Router (V.V.I)/NavBar';
 import Page404 from './Component/23. React Router (V.V.I)/2. 404 Page and Redirect/Page404';
 import StudentName from './Component/23. React Router (V.V.I)/3. Params in React Router/StudentName';
+import Filter from './Component/23. React Router (V.V.I)/3. SearchParams in Router/Filter';
 
 
 
@@ -110,6 +111,8 @@ function App() {
 
                     <Route path='/' element={<Home />}></Route>
                     <Route path="/About" element={<About />}></Route>
+                    <Route path="/Filter" element={<Filter />}></Route>
+
                     {/* <Route path='/*' element={<Page404 />}></Route> */}
                     <Route path='/*' element={<Navigate to="/" />}></Route>
                     <Route path="/StudentName/:name" element={<StudentName />}></Route>
@@ -118,11 +121,6 @@ function App() {
                 </Routes>
 
             </BrowserRouter>
-
-
-
-
-
 
 
         </div>

@@ -19,7 +19,10 @@
 
 .Nav-Link:hover{
     color: black;
-    background-color: skyblue;
     border-radius: 30px;
   
+}
+
+.active{
+    color: red;
 }

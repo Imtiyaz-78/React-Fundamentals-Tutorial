@@ -316,10 +316,18 @@
 
 <-----------------------------------> React Router <--------------------------------------> 
 
-1. 6.2.2 --> 6 major update --> 2 --> minor updates ---->2 patch
+1. 6.2.2 --> 6 major update --> 2 --> minor updates ----> 2 patch
 
 
 1. What is Params:
+
+
+2. Active Link in Navbar:
+   1.Active Link with Class: ans --> (.active{ color: black}) // This simple
+   2.Active Link with Style:
+   <NavLink style ={({isActive} => {return {colr:isActive?'green':'red'}})}>Home<NavLink/>
+  
+   3. Navlink mein by default active class hoti hai so we can haldle easily.
 
 
 
