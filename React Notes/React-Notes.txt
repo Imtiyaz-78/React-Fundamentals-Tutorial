@@ -331,6 +331,9 @@
 
 
 
+3. What is Nested Routing:
+   1. Ek Rounting banakar useke under ek routing define karna tha's called nested routing.
+
 
 
 
