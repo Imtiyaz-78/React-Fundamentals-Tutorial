@@ -375,8 +375,15 @@
 
    1. 
 
-   --> prefalied check karti hai ki hamara server sahi se cal raha hai ki nhi 
+   --> pre-faleed check karti hai ki hamara server sahi se cal raha hai ki nhi 
 
+3. How To Start CRUD Operation With Fake API:
+   1. First create Fake API --> goto on --> https://www.npmjs.com/package/json-server
+   2. Then Craete a folder in system 
+   3. open in Vs Code terminal run commmand --> npx install json-server
+   4. then run another command for craete JSON File and start for server ---> npx json-server --watch db.json
+
+   5. then open user hostlink 
 
 
 

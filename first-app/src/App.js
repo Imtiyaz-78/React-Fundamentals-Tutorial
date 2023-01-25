@@ -64,7 +64,11 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 //<------------------------------------> API in React <------------------------------->
 // import CallGetMethodAPI from './Component/24. API Call in React JS/CallGetMethodAPI';
 // import Post from './Component/24. API Call in React JS/1. Post Method in Rest API/Post';
-import Delete from './Component/24. API Call in React JS/2. Delete Method with API In React/Delete';
+// import Delete from './Component/24. API Call in React JS/2. Delete Method with API In React/Delete';
+// import Prefilled from './Component/24. API Call in React JS/3. PreFilled Form Data/Prefilled';
+import Update from './Component/24. API Call in React JS/4. Update Data With PUT Method API/Update';
+
+
 
 
 
@@ -156,9 +160,9 @@ function App() {
 
             {/* <CallGetMethodAPI /> */}
             {/* <Post /> */}
-            <Delete/>
-        
-
+            {/* <Delete/> */}
+            {/* <Prefilled /> */}
+            <Update />
 
 
 
