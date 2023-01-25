@@ -34,6 +34,7 @@ const CallGetMethodAPI = () => {
                         <td>suite</td>
                         <td>geo</td>
                         <td>lng</td>
+                        <td>Phone Number</td>
                     </tr>
                 </tbody>
 
@@ -50,6 +51,7 @@ const CallGetMethodAPI = () => {
                             <td>{items.address.suite}</td>
                             <td>{items.address.geo.lat}</td>
                             <td>{items.address.geo.lng}</td>
+                            <td>{items.phone}</td>
                         </tr>
 
                     )
