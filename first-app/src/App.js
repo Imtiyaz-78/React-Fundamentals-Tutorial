@@ -2,6 +2,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
+
 // import { BrowserRouter, Routes, Route, Navigate, useSearchParams } from 'react-router-dom';
 
 // import User from './Component/1. Funtional-component/User';
@@ -60,8 +61,10 @@ import Login from './Component/23. React Router (V.V.I)/6. Protected Route/Login
 import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/Protected';
 */
 
-
-import CallGetMethodAPI from './Component/24. API Call in React JS/CallGetMethodAPI';
+//<------------------------------------> API in React <------------------------------->
+// import CallGetMethodAPI from './Component/24. API Call in React JS/CallGetMethodAPI';
+// import Post from './Component/24. API Call in React JS/1. Post Method in Rest API/Post';
+import Delete from './Component/24. API Call in React JS/2. Delete Method with API In React/Delete';
 
 
 
@@ -116,45 +119,47 @@ function App() {
             {/* <Controlled /> */}
             {/* <Uncontrolled /> */}
             {/* <HocComponent /> */}
-            <div>
 
-                {/*
+
+            {/*
 
                 {/* <BrowserRouter> */}
-                {/* <NavBar /> */}
-                {/* <Routes> */}
+            {/* <NavBar /> */}
+            {/* <Routes> */}
 
-                {/* <Route path='/' element={<Protected Component = {Home}/>}></Route>
+            {/* <Route path='/' element={<Protected Component = {Home}/>}></Route>
                     <Route path='/Login' element={<Login />}></Route>
                     <Route path="/About" element={<Protected Component = {About}/>}></Route>
                     <Route path="/Filter" element={<Protected Component = {Filter}/>}></Route> */}
 
-                {/* <Route path='/*' element={<Page404 />}></Route> */}
-                {/* <Route path='/*' element={<Navigate to="/" />}></Route>
+            {/* <Route path='/*' element={<Page404 />}></Route> */}
+            {/* <Route path='/*' element={<Navigate to="/" />}></Route>
                     <Route path="/StudentName/:name" element={<StudentName />}></Route> */}
 
-                {/* <Route path='/Contact/' element={<Protected Component = {Contact}/>}> */}
-                {/* Nested Routes inside the Contac us page */}
-                {/* <Route path='Company' element={<Company />} />
+            {/* <Route path='/Contact/' element={<Protected Component = {Contact}/>}> */}
+            {/* Nested Routes inside the Contac us page */}
+            {/* <Route path='Company' element={<Company />} />
                         <Route path='Contact' element={<Contact />} />
                         <Route path='Other' element={<Other />} />
                         <Route path='Store' element={<Store />} /> */}
 
-                {/* </Route> */}
+            {/* </Route> */}
 
 
-                {/* </Routes> */}
+            {/* </Routes> */}
 
-                {/* </BrowserRouter> */}
-
-
-
-                {/* <----------------------------> Comment Now start from here <--------------->*/}
-
-                <CallGetMethodAPI />
+            {/* </BrowserRouter> */}
 
 
-            </div>
+
+            {/* <----------------------------> Comment Now start from here <--------------->*/}
+
+            {/* <CallGetMethodAPI /> */}
+            {/* <Post /> */}
+            <Delete/>
+        
+
+
 
 
         </div>

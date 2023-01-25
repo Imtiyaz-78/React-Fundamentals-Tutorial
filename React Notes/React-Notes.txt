@@ -358,12 +358,24 @@
 1. API Call in React:
    1. Get method : Jab data ko Show karna hota hai then we use post method.
    2. post method: Jab data ko store karna hota hai Database ke under then we use post method.
-   3. put Method: Jab data ko update karna hota hai then we use post method.
+   3. put Method: Jab data ko update karna hota hai then we use put method.
    4. delete method : jab delete karna hota hai then we use delete method.
+   5. patch method : ye instruction hoti hai data ko modify karne ke liye
+
+   --> put mathod ka use kartey hai data ko send krne ke liye and uske under data ko 
+      modify karne ke liye.
+
+   --> Patch method just ek instruction hoti hai data ko modify karne ke liye.
+
+
 
 
 2. What is postman:
    Postman is tool which use for testing the API Call
+
+   1. 
+
+   --> prefalied check karti hai ki hamara server sahi se cal raha hai ki nhi 
 
 
 
