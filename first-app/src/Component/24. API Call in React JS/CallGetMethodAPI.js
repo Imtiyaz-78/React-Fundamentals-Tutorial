@@ -15,7 +15,8 @@ const CallGetMethodAPI = () => {
             })
         })
 
-    }, [])  // Ek Bar hi cahle so i passed Blank Array
+    }, [])      // Ek Bar hi cahle so i passed Blank Array
+    
     return (
         <>
             <h1>How to Calling API</h1>
