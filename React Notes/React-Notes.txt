@@ -265,7 +265,7 @@
 
 
 7. What is useRef Hook in Functional Componenet:
-   1. useRef is a Hook jisko hum only use inside the Functional Componenet.
+   1. useRef is a Hook jisko hum only we use inside the Functional Componenet.
    2. jab hame style change karna ho, value get karna ho ye sabko handle karne ke liye we use useRef.
    3. ref property hoti hai get karne ke liye.
    4. It can be used to access a DOM element directly.
@@ -389,8 +389,44 @@
 
 
 
+<------------------------------------> Redux in React JS <--------------------------------------->
+
+1. What is Redux?
+   1. Redux is an open-source JavaScript library which is used to manage application state.
+      
+   2. React uses Redux for building the user interface(UI). It was first introduced by Dan Abramov 
+      and Andrew Clark in 2015.
+
+   3. It allows React components to read data from a Redux Store, and dispatch Actions to the  Store
+      to update data. 
+   
+   4. Redux itself is a standalone library that can be used with any UI layer or framework.
+   5. React redux is an advanced state management library for React.
+
+   --> Redux is just Store or Container where we can store your whole application data.
+   --> So we call it to state management.
+   --> it dosen't belongs to the component state
+
+   --> Mainly uses of Redux ek component se kisi other Componenet se communicate karane ke liye(VVI). 
+    
 
 
+2. Why we need Redux?
+
+3. How Redux Work?
+
+
+----> File Structures of React Redux:
+      Componenets
+      Container
+      Services: 1. actions
+                2. reducers
+                3. constants: contants dono filo ko batayega ki action se data jab reducers mein
+                              jayega toh koun sa data koun se function mein jana chahiye. 
+           
+           
+        
+             
 
 
 

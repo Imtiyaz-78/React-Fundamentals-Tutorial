@@ -61,12 +61,24 @@ import Login from './Component/23. React Router (V.V.I)/6. Protected Route/Login
 import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/Protected';
 */
 
-//<------------------------------------> API in React <------------------------------->
+// <------------------------------------> API in React <---------------------------------------->
 // import CallGetMethodAPI from './Component/24. API Call in React JS/CallGetMethodAPI';
 // import Post from './Component/24. API Call in React JS/1. Post Method in Rest API/Post';
 // import Delete from './Component/24. API Call in React JS/2. Delete Method with API In React/Delete';
 // import Prefilled from './Component/24. API Call in React JS/3. PreFilled Form Data/Prefilled';
-import Update from './Component/24. API Call in React JS/4. Update Data With PUT Method API/Update';
+// import Update from './Component/24. API Call in React JS/4. Update Data With PUT Method API/Update';
+
+
+// <-----------------------------------> React Interview Ques <---------------------------------> 
+// import Previous from './React Js Interiew (V.V.I)/1. Prevous State in Functional Component/Previous';
+// import Parent from './React Js Interiew (V.V.I)/2. Previous Props in Functional Component(Hooks)/Parent';
+// import StateWithObj from './React Js Interiew (V.V.I)/3. State with Object/StateWithObj';
+
+//<----------------------------------------> React Interview Ques <-------------------------------->
+
+
+// <--------------------------------------> React Redux <---------------------------------------->
+import Parents from './Redux in React JS/1. React props First/Parents';
 
 
 
@@ -155,17 +167,23 @@ function App() {
             {/* </BrowserRouter> */}
 
 
-
-            {/* <----------------------------> Comment Now start from here <--------------->*/}
+            {/* <----------------------------------> API in React JS <--------------------------------->*/}
 
             {/* <CallGetMethodAPI /> */}
             {/* <Post /> */}
             {/* <Delete/> */}
             {/* <Prefilled /> */}
-            <Update />
+            {/* <Update /> */}
+            {/* <Previous /> */}
+            {/* <Parent /> */}
+            {/* <StateWithObj/> */}
+            <Parents />
 
+            {/* <--------------------------> API in React JS <----------------------------->*/}
 
+            {/* <---------------------------> React Redux <--------------------------------->*/}
 
+        
         </div>
     );
 }
