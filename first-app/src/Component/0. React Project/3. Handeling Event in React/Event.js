@@ -15,7 +15,7 @@ export const Event = () => {
 
     };
 
-    function Bgback(){
+    function Bgback() {
         setBg(green);
         setName("Amazing 💯");
     }
@@ -30,6 +30,8 @@ export const Event = () => {
 
     )
 }
+
+
 
 
 
