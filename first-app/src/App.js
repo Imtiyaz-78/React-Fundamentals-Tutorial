@@ -87,7 +87,8 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // <----------------------------> React Hooks By T <--------------------------->
 // import UseState from './Component/16. Hooks in React Js (V.V.I)/2. UseState In Hooks/UseState';
 // import { Time } from './Component/0. React Project/1. Get Time on Refreshing/Time';
-import { DigitalClock } from './Component/0. React Project/2. Digital Clock/DigitalClock';
+// import { DigitalClock } from './Component/0. React Project/2. Digital Clock/DigitalClock';
+import { Event } from './Component/0. React Project/3. Handeling Event in React/Event';
 
 
 
@@ -202,7 +203,8 @@ function App() {
             {/* <-----------------------> React Hooks By T <------------------------>*/}
             {/* <UseState /> */}
             {/* <Time /> */}
-            <DigitalClock />
+            {/* <DigitalClock /> */}
+            <Event />
 
         </div>
     );
