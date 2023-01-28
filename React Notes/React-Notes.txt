@@ -178,19 +178,30 @@
 
 
 1. What is Hooks in React Js:
+   1. It allow you to use state and other React features without writting a class.
+
    1. Jab hum class component use kartey hai toh uske under life cycle method ke in-built 
       feature hotey hai like state, life cycle, pure component but Functional component ke under nahi hoti hai usi feature ko use karne ke liye humlog Hooks ka use kartey hai.
   
    2. With Hooks, we can use class component feature in Functional component such as state,
       life cycle, pure component, etc.
    
-   3. Hooks are a new addition in React 16.8. They let you use state and other 
+   3. Hooks are a new features in React 16.8. They let you use state and other 
       React features without writing a class.
 
+1. What is useState in Hooks:
+   useState is function which returns a Array with two itmes first is current Data and Second
+   is updated Data and jab bhi useState koee value put karengey then called INITIAL DATA.
 
 
 2. What is useEffect Hook in React Js:
    1. This is Similar to componentDidMount and componentDidUpdate:
+
+   2. Hooks are the Funtion which "Hook into"  React State and lifecycle features from function com
+
+   3. It does not work inside classes.
+
+   4. Hooks always be used at the top level of the React function. l
 
    2. If you’re familiar with React class lifecycle methods, you can think of useEffect
       Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
@@ -385,6 +396,31 @@
 
    5. then open user hostlink 
 
+<---------------------------------------> React Advanced Topic <------------------------------->
+
+1. Context API in React:
+   1.Context provides a way to pass data through the component tree without having to pass props
+    down manually at every level.
+   
+   1. Suppose we component tree and i want to share data from one component to other component
+      then we can easily share the data using Context. but in nomal way pahle humko parent component mein pass karna hota then phir parent component se uss child component mein
+      mein Data share kartey.
+
+      But by using Context API we can easily direct share data from one to other component.
+
+
+
+ ---> Inside Context API Two component are important
+      1. Provider: Provider Data ko set karta hai ki kya kya Data set Karta hai.
+      2. consumer: Comsumers means uss Data ko use karna
+      
+
+
+
+
+
+<---------------------------------------> React Advanced Topic <-------------------------------> 
+
 
 
 
@@ -393,6 +429,8 @@
 
 1. What is Redux?
    1. Redux is an open-source JavaScript library which is used to manage application state.
+
+   1. Redux is a pattern and library for managing and updating application state, using events call "action"
       
    2. React uses Redux for building the user interface(UI). It was first introduced by Dan Abramov 
       and Andrew Clark in 2015.
@@ -412,8 +450,9 @@
 
 
 2. Why we need Redux?
+   To mannage state
 
-3. How Redux Work?
+3. How Redux Work? 
 
 
 ----> File Structures of React Redux:
@@ -423,10 +462,29 @@
                 2. reducers
                 3. constants: contants dono filo ko batayega ki action se data jab reducers mein
                               jayega toh koun sa data koun se function mein jana chahiye. 
+
            
-           
+---> Data in React always flow from the parent to child component which makes it unidirectional         
         
              
+1. what is Action:
+  1. Action are plain JavaScript object that have a type of filed.
+  2. Action only tel what to do, but they dont't tell how to do.
+  Example : return {
+   type: 'Increment',
+   payload: num;
+  }
+
+
+2. What is Reducer:
+   Reducers are function that take the current state and an function as argument,
+   and return a new state result.
+
+
+3. What is Store:
+   1.The Redux store brings Together the state, action and reducers that make up your App.
+   2. It's important to note that you will only have a single store in a redux application.
+   3. Every Redux store has a single root reducers function.
 
 
 
@@ -440,4 +498,21 @@
 
 
 
-     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

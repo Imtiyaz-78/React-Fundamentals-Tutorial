@@ -69,17 +69,25 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import Update from './Component/24. API Call in React JS/4. Update Data With PUT Method API/Update';
 
 
-// <-----------------------------------> React Interview Ques <---------------------------------> 
+// <------------------------------> React Interview Ques <---------------------------------> 
 // import Previous from './React Js Interiew (V.V.I)/1. Prevous State in Functional Component/Previous';
 // import Parent from './React Js Interiew (V.V.I)/2. Previous Props in Functional Component(Hooks)/Parent';
 // import StateWithObj from './React Js Interiew (V.V.I)/3. State with Object/StateWithObj';
 
-//<----------------------------------------> React Interview Ques <-------------------------------->
+//<-----------------------------------> React Interview Ques <-------------------------------->
 
 
-// <--------------------------------------> React Redux <---------------------------------------->
-import Parents from './Redux in React JS/1. React props First/Parents';
 
+// <------------------------------------> React Redux <---------------------------------------->
+// import Parents from './Redux in React JS/1. React props First/Parents';
+// import Roots from './Redux in React JS/2. React Redux/Main/Roots';
+
+
+
+// <----------------------------> React Hooks By T <--------------------------->
+// import UseState from './Component/16. Hooks in React Js (V.V.I)/2. UseState In Hooks/UseState';
+// import { Time } from './Component/0. React Project/1. Get Time on Refreshing/Time';
+import { DigitalClock } from './Component/0. React Project/2. Digital Clock/DigitalClock';
 
 
 
@@ -177,13 +185,25 @@ function App() {
             {/* <Previous /> */}
             {/* <Parent /> */}
             {/* <StateWithObj/> */}
-            <Parents />
+
 
             {/* <--------------------------> API in React JS <----------------------------->*/}
 
+
+
+            {/* <---------------------------> React Redux <--------------------------------->*/}
+            {/* <Parents /> */}
+            {/* <Roots /> */}
+
             {/* <---------------------------> React Redux <--------------------------------->*/}
 
-        
+
+
+            {/* <-----------------------> React Hooks By T <------------------------>*/}
+            {/* <UseState /> */}
+            {/* <Time /> */}
+            <DigitalClock />
+
         </div>
     );
 }
