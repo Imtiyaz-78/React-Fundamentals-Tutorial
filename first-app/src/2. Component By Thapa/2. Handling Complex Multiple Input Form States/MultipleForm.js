@@ -24,7 +24,6 @@ export const MultipleForm = () => {
         const { value, name } = event.target;
 
         seFullName((preValue) => {
-            // console.log(preValue);
             if (name === "fName") {
                 return {
                     fName: value,
@@ -42,6 +41,7 @@ export const MultipleForm = () => {
                     phone: preValue.phone
 
                 };
+
             } else if (name === "email") {
                 return {
                     fName: preValue.fName,
@@ -50,7 +50,6 @@ export const MultipleForm = () => {
                     phone: preValue.phone
 
                 };
-
 
             } else if (name === "phone") {
                 return {
