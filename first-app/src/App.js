@@ -89,7 +89,8 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import { Time } from './Component/0. React Project/1. Get Time on Refreshing/Time';
 // import { DigitalClock } from './Component/0. React Project/2. Digital Clock/DigitalClock';
 // import { Event } from './Component/0. React Project/3. Handeling Event in React/Event';
-import { LoginForm } from './2. Component By Thapa/1. Login Form Submit/LoginForm';
+// import { LoginForm } from './2. Component By Thapa/1. Login Form Submit/LoginForm';
+import { MultipleForm } from './2. Component By Thapa/2. Handling Complex Multiple Input Form States/MultipleForm';
 
 
 
@@ -206,7 +207,8 @@ function App() {
             {/* <Time /> */}
             {/* <DigitalClock /> */}
             {/* <Event /> */}
-            <LoginForm />
+            {/* <LoginForm /> */}
+            <MultipleForm />
 
         </div>
     );
