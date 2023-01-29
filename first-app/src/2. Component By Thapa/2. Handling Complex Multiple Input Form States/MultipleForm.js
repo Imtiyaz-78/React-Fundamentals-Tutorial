@@ -5,6 +5,9 @@ export const MultipleForm = () => {
     const [fullName, seFullName] = useState({
         fName: "",
         lName: "",
+        email: "",
+        phone: "",
+
     })
 
 
@@ -13,8 +16,12 @@ export const MultipleForm = () => {
         console.log(event.target.value);
         console.log(event.target.name);
 
-        const value = event.target.value;
-        const name = event.target.name;
+        // 1st method
+        // const value = event.target.value;
+        // const name = event.target.name;
+
+        // 2nd Method By Dstructuring
+        const { value, name } = event.target;
 
         seFullName((preValue) => {
             // console.log(preValue);
@@ -22,6 +29,8 @@ export const MultipleForm = () => {
                 return {
                     fName: value,
                     lName: preValue.lName,
+                    email: preValue.email,
+                    phone: preValue.phone
 
                 };
 
@@ -29,9 +38,32 @@ export const MultipleForm = () => {
                 return {
                     fName: preValue.fName,
                     lName: value,
+                    email: preValue.email,
+                    phone: preValue.phone
 
                 };
+            } else if (name === "email") {
+                return {
+                    fName: preValue.fName,
+                    lName: preValue.lName,
+                    email: value,
+                    phone: preValue.phone
+
+                };
+
+
+            } else if (name === "phone") {
+                return {
+                    fName: preValue.fName,
+                    lName: preValue.lName,
+                    email: preValue.email,
+                    phone: value,
+
+                };
+
             }
+
+
         });
 
     };
@@ -39,6 +71,7 @@ export const MultipleForm = () => {
 
     const onSubmits = (event) => {
         event.preventDefault();
+        alert("Form Submited");
 
     };
 
@@ -50,12 +83,16 @@ export const MultipleForm = () => {
                 <form >
                     <div className='Conatiner'>
                         <h1>Hello {fullName.fName} {fullName.lName}</h1>
+                        <p>{fullName.email}  {fullName.phone}</p>
 
                         <input type="text" placeholder='Enter Your Name' name="fName" className='no-outline first' onChange={inputEvent} value={fullName.fName} />
 
                         <input type="text" placeholder='Enter Your Last Name' name="lName" className='no-outline' onChange={inputEvent} value={fullName.lName} />
 
-                        {/* <input type="text" placeholder='Enter Your Email' className='no-outline' /> */}
+                        <input type="email" placeholder='Enter Your Email' className='no-outline' name="email" value={fullName.email}  onChange={inputEvent} />
+
+
+                        <input type="number" placeholder='Enter Your Mobile' className='no-outline' name="phone" value={fullName.phone}  onChange={inputEvent}  />
 
 
                         <button type='submit' className='btn' onClick={onSubmits} >SUBMIT ME</button>
