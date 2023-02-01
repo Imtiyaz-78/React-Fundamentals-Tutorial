@@ -39,7 +39,7 @@
 
 
 ---> What is State(Function Component):
-     State is object hota hai jisme hum data ko store karte same as varibale
+     State is object hota hai jisme hum data ko store karte hai same as varibale
 
 
 
