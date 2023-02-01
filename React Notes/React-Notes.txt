@@ -1,8 +1,8 @@
 
----> What is React JS:-
+---> What is React JS:
 
 
----> Benifits of Using React:- 
+---> Benifits of Using React:
   
 
 
@@ -25,16 +25,19 @@
 
 ---> What is component:
    --> Component is a piece of code that can re-use again and again.
-   --> Example: function (Suppose ek name ka function banaye then isko reuse kar saktey hai).
+   --> Example: function (Suppose, ek name ka function banaye then isko reuse kar saktey hai).
    --> But more powerful than function (their own props, state).
    --> Example of component: Header, Footer
      
 
 
 ---> What is JSX:
-   --> JSX is javascript XML that means to write HTML In javascript.
+  
+   --> JSX is javascript XML that means to write HTML Inside React.
    --> Write HTML and javascript Together.
    --> Use Like HTML or XML tags.
+   --> JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it 
+       easier to write and add HTML in React.
 
 
 
@@ -46,17 +49,13 @@
 ---> Use of State:
      Jab bhi hum variable use kartey hai toh hamara component update nahi hota hai
      and jab hum state use karte hai toh hamara component update or re-render hota hai.
-     State hamara ek container jisme hum data ko store kartey hai simple.
+     State hamara ek container hai jisme hum data ko store kartey hai simple.
 
 
 ---> Define of State: 
      State is object hota hai jisme hum data ko store karte same as varibale
 
-    
-
----> update state with a Button Click:
-
-
+   
 ---> How State work:
 
 
@@ -65,7 +64,7 @@
 
 ---> State in Class Component:
     1. Make Class Component
-    2. What is State: State is a Data Container Hota hai jisme name, value etc store kar saktye hai
+    2. What is State: State is a Data Container Hota hai jisme name value etc store kar saktye hai
     3. Define State
     4. update state with a Button Click
 
@@ -78,7 +77,7 @@
 
 
 
-  -> In React, props (short for "properties") are a way to pass data from a parent component to child component. Props are an object that contains a set of values that are passed to a component as attributes when it is rendered. The child component can then access these values through the props object.
+  -> In React, props (short for "properties") are a way to pass data from a parent component to  child component. Props are an object that contains a set of values that are passed to a component as attributes when it is rendered. The child component can then access these values through the props object.
 
 
 ---> What is Props In Class-Component:
@@ -104,11 +103,11 @@
    --> When Componentis removed means hide ho jata tab.
 
 
---->Construtor
-   Jab hum class ko call kartey then constructor apne aap hi call ho jata hai
+---> Construtor
+     Jab hum class ko call kartey then constructor apne aap hi call ho jata hai
 
 
----> what is Super Method:
+---> What is Super Method:
      Parent Class ko call karne ke liye Super method use kartey hai.
 
 

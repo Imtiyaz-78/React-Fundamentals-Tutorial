@@ -94,6 +94,7 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import { LoginForm } from './2. Component By Thapa/3.Login Form in Less code/LoginForm';
 // import TodoList from './Component/0. React Project/4. Todo List App in React JS/TodoList';
 import Counter from './Component/0. React Project/5. Counter React App/Counter';
+// import { Interviews } from './InterView/Interviews';
 
 
 
@@ -215,6 +216,9 @@ function App() {
             {/* <LoginForm /> */}
             {/* < TodoList /> */}
             <Counter />
+
+            {/* <Interviews /> */}
+
 
         </div>
     );

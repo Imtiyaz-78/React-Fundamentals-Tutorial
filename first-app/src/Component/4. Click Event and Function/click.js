@@ -2,6 +2,7 @@
 
 function App() {
     let data = "Imtiyaz";
+    
     function updateData(){
         data = "Imtiyaz is Front End Developer";
         alert(data);
