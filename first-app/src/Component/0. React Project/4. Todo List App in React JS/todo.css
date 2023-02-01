@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "josen sans", "Arial Narrow", Arial, sans-serif;
+}
+
+
+.Todo_card {
+    width: 393px;
+    height: 504px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9%;
+}
+
+.btn {
+    margin-left: 12px;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: indigo;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.btn , ol, li{
+    font-size: 20px;
+}
+
+.heading {
+    background-color: lime;
+
+}
+
+h1 {
+    color: rgb(4, 38, 208);
+    /* border-radius: 20px; */
+    margin-top: 40px;
+    font-size: 40px;
+    background: transparent;
+}
+
+.container {
+    margin-top: 3%;
+    border-radius: 10%;
+}
+
+.inputs {
+    margin-top: 8%;
+    font-size: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    border-bottom: 3px solid indigo;
+    text-align: -webkit-center;
+    line-height: 1.5em;
+
+
+}
+
+
+.list {
+    margin-right: 71%;
+
+
+}
+
+
+.list li {
+    font-weight: 600;
+    list-style-type: none;
+    margin-top: 35%;
+    white-space: nowrap;
+    margin-right: 15%;
+    font-size: 30px;
+
+}
+
+
+
+
+.inputs:focus {
+    outline: none;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #09f709;
+}
+
+
+.todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo_style .fa-times {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 40px 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.todo_style .fa-times:hover{
+    background-color: crimson;
+    
+}
+
+
+.todo_style  .fa-times:hover{
+   color: white;
+}
+
+@media (max-width:768px){
+    .container{
+        width: 50%;
+    }
+}
+
+.todo_style .fa-times{
+    margin: 40 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}

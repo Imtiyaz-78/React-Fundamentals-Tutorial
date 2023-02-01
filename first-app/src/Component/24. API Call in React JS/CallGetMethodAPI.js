@@ -6,7 +6,8 @@ import style from './style.css';
 
 const CallGetMethodAPI = () => {
 
-    const [data, setData] = useState([])
+    const [data, setData] = useState([]);
+
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users").then((result) => {
             result.json().then((response) => {

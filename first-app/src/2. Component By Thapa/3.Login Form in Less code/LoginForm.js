@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import Multipleform from './Multipleform.css'
 
-export const MultipleForm = () => {
+export const LoginForm = () => {
     const [fullName, seFullName] = useState({
         fName: "",
         lName: "",
         email: "",
         phone: "",
 
-    })
+    });
 
 
     // onChange karne par
@@ -24,43 +24,49 @@ export const MultipleForm = () => {
         const { value, name } = event.target;
 
         seFullName((preValue) => {
-            if (name === "fName") {
-                return {
-                    fName: value,
-                    lName: preValue.lName,
-                    email: preValue.email,
-                    phone: preValue.phone
 
-                };
-
-            } else if (name === "lName") {
-                return {
-                    fName: preValue.fName,
-                    lName: value,
-                    email: preValue.email,
-                    phone: preValue.phone
-
-                };
-
-            } else if (name === "email") {
-                return {
-                    fName: preValue.fName,
-                    lName: preValue.lName,
-                    email: value,
-                    phone: preValue.phone
-
-                };
-
-            } else if (name === "phone") {
-                return {
-                    fName: preValue.fName,
-                    lName: preValue.lName,
-                    email: preValue.email,
-                    phone: value,
-
-                };
-
+            return {
+                ...preValue,
+                [name]: value,
             }
+
+            // if (name === "fName") {
+            //     return {
+            //         fName: value,
+            //         lName: preValue.lName,
+            //         email: preValue.email,
+            //         phone: preValue.phone
+
+            //     };
+
+            // } else if (name === "lName") {
+            //     return {
+            //         fName: preValue.fName,
+            //         lName: value,
+            //         email: preValue.email,
+            //         phone: preValue.phone
+
+            //     };
+
+            // } else if (name === "email") {
+            //     return {
+            //         fName: preValue.fName,
+            //         lName: preValue.lName,
+            //         email: value,
+            //         phone: preValue.phone
+
+            //     };
+
+            // } else if (name === "phone") {
+            //     return {
+            //         fName: preValue.fName,
+            //         lName: preValue.lName,
+            //         email: preValue.email,
+            //         phone: value,
+
+            //     };
+
+            // }
 
 
         });
