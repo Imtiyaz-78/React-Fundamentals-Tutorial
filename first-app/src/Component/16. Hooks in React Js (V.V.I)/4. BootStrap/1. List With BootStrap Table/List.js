@@ -1,6 +1,8 @@
 
 import React from 'react'
 import {Table} from 'react-bootstrap'
+
+
 function App() {
   const Imtiyaz = [
     { name: 'Imtiyaz', email: 'imtiyaz@test.com', contact: '111' },

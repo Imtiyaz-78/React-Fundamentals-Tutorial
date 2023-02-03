@@ -499,6 +499,15 @@
 
 
 
+<----------------------------> BootStrap in React <------------------------------------>
+
+----> How to use BootStrap in our React Project:
+     Step 1: npm install bootstrap
+     Step 2: import 'bootstrap/dist/css/bootstrap.min.css';
+     Step 3: Then Use BootStrap any Componenet.
+
+<-----------------------------> BootStrap in React <------------------------------------>
+
 
 
 

@@ -1,0 +1,24 @@
+
+
+
+
+
+
+.main-heading p{
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4pxx 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.answer{
+    padding: 30px 20px 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 400;
+    line-height: 1.7;
+    background: #fcf5f5;
+    color: rgb(40, 37, 53);
+}

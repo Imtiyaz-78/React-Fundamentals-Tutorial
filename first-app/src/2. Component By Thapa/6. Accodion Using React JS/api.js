@@ -1,0 +1,25 @@
+export const questions = [
+    {
+        id: 1,
+        question: "How do we Create React App",
+        answer: "Install the creat-react-app package usinh"
+    },
+
+    {
+        id: 2,
+        question: "What is event in  React App",
+        answer: "Event is a action"
+    },
+
+    {
+        id: 3,
+        question: "What is State in  React App",
+        answer: "State is a object in Recat just like container"
+    },
+
+    {
+        id: 4,
+        question: "What's your name",
+        answer: "My Name is Imtiyaz"
+    }
+]
