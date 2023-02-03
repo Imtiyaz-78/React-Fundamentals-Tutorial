@@ -12,6 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 9%;
+    box-shadow:  10px 10px 30px 3px rgb(106, 182, 207);
 }
 
 .btn {
@@ -19,7 +20,7 @@
     height: 33px;
     width: 33px;
     border-radius: 50%;
-    background-color: indigo;
+    background-color: hsl(66, 95%, 53%);
     color: white;
     font-weight: 700;
     text-align: center;
@@ -32,7 +33,7 @@
 }
 
 .heading {
-    background-color: lime;
+    background-color: hsl(65, 90%, 49%);
 
 }
 
@@ -47,6 +48,7 @@ h1 {
 .container {
     margin-top: 3%;
     border-radius: 10%;
+    
 }
 
 .inputs {

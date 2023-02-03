@@ -46,6 +46,8 @@ import React, { useState } from 'react';
 // import HocComponent from './Component/22. Higher Order Component(HOC)/HocComponent';
 
 
+
+// <-------------------------> React Routers <------------------------------------>
 /* 
 import Home from './Component/23. React Router (V.V.I)/Home';
 import About from './Component/23. React Router (V.V.I)/About';
@@ -61,7 +63,9 @@ import Login from './Component/23. React Router (V.V.I)/6. Protected Route/Login
 import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/Protected';
 */
 
-// <------------------------------------> API in React <---------------------------------------->
+
+
+// <-----------------------------> API in React <---------------------------------->
 // import CallGetMethodAPI from './Component/24. API Call in React JS/CallGetMethodAPI';
 // import Post from './Component/24. API Call in React JS/1. Post Method in Rest API/Post';
 // import Delete from './Component/24. API Call in React JS/2. Delete Method with API In React/Delete';
@@ -69,16 +73,16 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import Update from './Component/24. API Call in React JS/4. Update Data With PUT Method API/Update';
 
 
+
+
 // <----------------------> React Interview Ques <--------------------------------> 
 // import Previous from './React Js Interiew (V.V.I)/1. Prevous State in Functional Component/Previous';
 // import Parent from './React Js Interiew (V.V.I)/2. Previous Props in Functional Component(Hooks)/Parent';
 // import StateWithObj from './React Js Interiew (V.V.I)/3. State with Object/StateWithObj';
 
-//<-----------------------> React Interview Ques <---------------------------->
 
 
-
-// <---------------------------> React Redux <--------------------------------->
+// <------------------------------> React Redux <--------------------------------->
 // import Parents from './Redux in React JS/1. React props First/Parents';
 // import Roots from './Redux in React JS/2. React Redux/Main/Roots';
 
@@ -92,9 +96,9 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import { LoginForm } from './2. Component By Thapa/1. Login Form Submit/LoginForm';
 // import { MultipleForm } from './2. Component By Thapa/2. Handling Complex Multiple Input Form States/MultipleForm';
 // import { LoginForm } from './2. Component By Thapa/3.Login Form in Less code/LoginForm';
-// import TodoList from './Component/0. React Project/4. Todo List App in React JS/TodoList';
-import Counter from './Component/0. React Project/5. Counter React App/Counter';
-// import { Interviews } from './InterView/Interviews';
+import TodoList from './Component/0. React Project/4. Todo List App in React JS/TodoList';
+// import Counter from './Component/0. React Project/5. Counter React App/Counter';
+
 
 
 
@@ -152,6 +156,8 @@ function App() {
             {/* <HocComponent /> */}
 
 
+
+
             {/*
 
                 {/* <BrowserRouter> */}
@@ -175,11 +181,10 @@ function App() {
                         <Route path='Store' element={<Store />} /> */}
 
             {/* </Route> */}
-
-
             {/* </Routes> */}
-
             {/* </BrowserRouter> */}
+
+
 
 
             {/* <------------------------> API in React JS <--------------------------->*/}
@@ -214,10 +219,8 @@ function App() {
             {/* <LoginForm /> */}
             {/* <MultipleForm /> */}
             {/* <LoginForm /> */}
-            {/* < TodoList /> */}
-            <Counter />
-
-            {/* <Interviews /> */}
+            < TodoList />
+            {/* <Counter /> */}
 
 
         </div>

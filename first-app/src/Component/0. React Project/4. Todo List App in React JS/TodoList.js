@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import todo from './todo.css'
 import List from './List';
+import Button from '@mui/material/Button';
+import AddIcon from '@mui/icons-material/Add';
 
 const TodoList = () => {
     const [inputList, setInputList] = useState("");
@@ -16,7 +18,8 @@ const TodoList = () => {
             return [...oldItems, inputList];
         });
 
-        setInputList(""); // ye hana par data set hone ke baad array ko empty kr rahe means input
+
+        setInputList(""); // yeha par data set hone ke baad array ko empty kr rahe means input ko
 
     };
 
@@ -25,7 +28,7 @@ const TodoList = () => {
         console.log("deleted");
         setItems((oldItems) => {
             return oldItems.filter((arrElem, index) => {
-                      return index !== id;
+                return index !== id;
 
             });
         });
@@ -39,13 +42,14 @@ const TodoList = () => {
                 <div className='Todo_card'><br />
                     <h1 className='heading'>Todo List App</h1>
                     <input type="text" className='inputs' placeholder='Add a Items' onChange={ItemEvents} value={inputList} />
-                    <button className='btn' onClick={listOfItems}>+</button>
+
+                    <Button className='btn' onClick={listOfItems} variant="contained" > <AddIcon /></Button>
 
                     <ol className='list'>
 
                         {
                             items.map((itemsvalue, index) => {
-                                return <List text={itemsvalue}
+                                return <List text={itemsvalue} // text is props
                                     key={index}
                                     id={index}
                                     onSelect={deleteItem}
@@ -53,6 +57,7 @@ const TodoList = () => {
                                 />
                             })
                         }
+
                     </ol>
 
 

@@ -3,6 +3,7 @@ import Counters from './Counters.css';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
 
 
 
@@ -36,14 +37,20 @@ const Counter = () => {
 
                 <h1 className='cnt'>{count}</h1>
                 <div className='mtl'>
-                    <Button onClick={Inc} variant="contained" size="large" className="btn1">
+                    <Tooltip title="INCREMENT">
+                        <Button onClick={Inc} variant="contained" size="large" className="btn1">
 
-                        <AddIcon />
-                    </Button>
+                            <AddIcon />
+                        </Button>
+
+                    </Tooltip>
+
+                    <Tooltip title="DECREMENT">
                     <Button onClick={Dec} variant="contained" size="large" className="btn2">
 
                         <RemoveIcon />
                     </Button>
+                    </Tooltip>
                 </div>
 
 
