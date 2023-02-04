@@ -196,7 +196,7 @@
 2. What is useEffect Hook in React Js:
    1. This is Similar to componentDidMount and componentDidUpdate:
 
-   2. Hooks are the Funtion which "Hook into"  React State and lifecycle features from function com
+   2. Hooks are the Funtion which "Hook into"  React State and lifecycle features from function  com
 
    3. It does not work inside classes.
 
@@ -538,6 +538,11 @@
    2. React useContext is a way to manage state globally.
    
 
+3. What is useEffect Hooks in React:
+   1. The useEffect Hook allows you to perform side effects in our components.
+   2. Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+   3. useEffect accepts two arguments. The second argument is optional.
+      1. useEffect(<function>, <dependency>)
 
 
 
