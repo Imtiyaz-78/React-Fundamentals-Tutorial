@@ -106,7 +106,8 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import ContextsA from './Component/16. Hooks in React Js (V.V.I)/9. useContext Hook in React/ContextsA';
 // import Timer from './Component/16. Hooks in React Js (V.V.I)/10. useEffect in React JS/Timer';
 // import UseEffect_Best_Example from './Component/16. Hooks in React Js (V.V.I)/10. useEffect in React JS/UseEffect_Best_Example';
-import Title from './Component/0. React Project/6. Changing_The_Title_value.js/Title';
+// import Title from './Component/0. React Project/6. Changing_The_Title_value.js/Title';
+import Statewise from './Component/0. React Project/7. Covid 19 Tracker in React/Component/StateWise Data/Statewise';
 
 
 
@@ -241,7 +242,8 @@ function App() {
             {/* <ContextsA /> */}
             {/* <Timer /> */}
             {/* <UseEffect_Best_Example /> */}
-            <Title />
+            {/* <Title /> */}
+            <Statewise />
 
 
 
