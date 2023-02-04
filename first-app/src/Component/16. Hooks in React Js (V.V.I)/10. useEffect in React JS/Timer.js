@@ -8,6 +8,7 @@ const Timer = () => {
           setCount((count) => count + 1);
        }, 1000)
    })
+   
     return <h1>I have rendered {count} Times!</h1>;
 }
 

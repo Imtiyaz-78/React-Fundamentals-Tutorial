@@ -5,7 +5,6 @@ const UseEffect_Best_Example = () => {
     const [count1, setCount1] = useState(0);
     const [count2, setCount2] = useState(0);
 
-
     useEffect(() => {
         alert("Counter Button Clicked")
     }, [count1]);
@@ -21,3 +20,7 @@ const UseEffect_Best_Example = () => {
 }
 
 export default UseEffect_Best_Example;
+
+
+
+

@@ -188,9 +188,11 @@
    3. Hooks are a new features in React 16.8. They let you use state and other 
       React features without writing a class.
 
+
 1. What is useState in Hooks:
    useState is function which returns a Array with two itmes first is current Data and Second
    is updated Data and jab bhi useState koee value put karengey then called INITIAL DATA.
+
 
 
 2. What is useEffect Hook in React Js:
