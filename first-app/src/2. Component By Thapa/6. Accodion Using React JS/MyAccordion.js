@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-const MyAccordion = () => {
+
+
+const MyAccordian = ({ question, answer }) => {
+    const [show, setShow] = useState(false);
     return (
         <>
-            <div>
-                <h1>Hey</h1>
-
+           <div className="main-heading">
+                <p onClick={() => setShow(!show)}> { show? "➖" : "➕"} </p>
+                <h3>{question}</h3>
+                   
             </div>
+            { show &&  <p className="answers"> {answer} </p> }
+         
         </>
     )
 }
 
-export default MyAccordion
+export default MyAccordian;
+

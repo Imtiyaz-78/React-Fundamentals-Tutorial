@@ -3,18 +3,21 @@ import { questions } from './api';
 import accordion from './accordion.css';
 import MyAccordion from './MyAccordion';
 
-const Accordion = () => {
 
+
+const Accordion = () => {
     const [data, setData] = useState(questions);
     return (
         <>
-            {
-                data.map((items) => {
-                    const {id, question, answer} = items;
-                    return <MyAccordion key={id} {...items}/>;
-
-                })
-            }
+            <section className="main-div">
+                <h1>React Interview Questions </h1>
+                {
+                    data.map((curElem) => {
+                        return <MyAccordion key={curElem.id} {...curElem} />
+                        //here the spread operator is use to pass the the properties of the questions api
+                    })
+                }
+            </section>
         </>
     )
 }
