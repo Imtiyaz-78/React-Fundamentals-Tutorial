@@ -99,7 +99,14 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import TodoList from './Component/0. React Project/4. Todo List App in React JS/TodoList';
 // import Counter from './Component/0. React Project/5. Counter React App/Counter';
 // import Hello from './2. Component By Thapa/5. BootStrap in React JS/Hello';
-import Accordion from './2. Component By Thapa/6. Accodion Using React JS/Accordion';
+// import Accordion from './2. Component By Thapa/6. Accodion Using React JS/Accordion';
+
+// <----------------------------> React Hooks Hooks By Imtiyaz <--------------------------->
+import ContextA from './Component/16. Hooks in React Js (V.V.I)/8. Context API in React/ContextA';
+
+
+
+// <----------------------------> React Hooks By Thapa <--------------------------->
 
 
 
@@ -224,7 +231,9 @@ function App() {
             {/* < TodoList /> */}
             {/* <Counter /> */}
             {/* <Hello /> */}
-            <Accordion />
+            {/* <Accordion /> */}
+
+            <ContextA />
 
 
         </div>

@@ -511,6 +511,26 @@
 
 
 
+1. What is Context API in React (V.V.I):
+   1. React context API allows us to easily access data at different level of the component
+      tree without passing prop to every level. 
+
+   2. The React Context API is a component structure, which allows us to share data across 
+      all levels of the Application.
+   
+   
+   3. The main aim of Context API is to solve the problem of prop drilling (also called    
+     "Threading"). The Context API in React are given below. 
+
+
+---> There are Basically three Steps for using React Context API:
+     1. createContext()  = They are Basically create context Object for passing tha data
+     2. Provider         = provider means people can use
+     3. Consumer         = Agar koee user Data provide karwa rahe hai toh then for use consumer
+
+   
+
+
 
 
 

@@ -7,6 +7,7 @@ import MyAccordion from './MyAccordion';
 
 const Accordion = () => {
     const [data, setData] = useState(questions);
+    
     return (
         <>
             <section className="main-div">
