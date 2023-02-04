@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 
-
 const MyAccordian = ({ question, answer }) => {
     const [show, setShow] = useState(false);
+    
     return (
         <>
            <div className="main-heading">
@@ -18,4 +18,6 @@ const MyAccordian = ({ question, answer }) => {
 }
 
 export default MyAccordian;
+
+
 
