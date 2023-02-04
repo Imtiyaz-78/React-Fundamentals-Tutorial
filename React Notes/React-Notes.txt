@@ -528,6 +528,14 @@
      2. Provider         = provider means people can use
      3. Consumer         = Agar koee user Data provide karwa rahe hai toh then for use consumer
 
+
+
+
+2. What is useContext Hooks in React (V.V.I):
+   1. useContext” hook is a way to accessed Data throughout the component hierarchy without  
+      passing the props down manually to each level.
+
+   2. React useContext is a way to manage state globally.
    
 
 

@@ -102,7 +102,9 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 // import Accordion from './2. Component By Thapa/6. Accodion Using React JS/Accordion';
 
 // <----------------------------> React Hooks Hooks By Imtiyaz <--------------------------->
-import ContextA from './Component/16. Hooks in React Js (V.V.I)/8. Context API in React/ContextA';
+// import ContextA from './Component/16. Hooks in React Js (V.V.I)/8. Context API in React/ContextA';
+import ContextsA from './Component/16. Hooks in React Js (V.V.I)/9. useContext Hook in React/ContextsA';
+
 
 
 
@@ -232,8 +234,9 @@ function App() {
             {/* <Counter /> */}
             {/* <Hello /> */}
             {/* <Accordion /> */}
+            {/* <ContextA /> */}
+            <ContextsA />
 
-            <ContextA />
 
 
         </div>
