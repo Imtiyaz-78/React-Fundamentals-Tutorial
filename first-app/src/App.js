@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 
-// import { BrowserRouter, Routes, Route, Navigate, useSearchParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useSearchParams } from 'react-router-dom';
+
 
 // import User from './Component/1. Funtional-component/User';
 // import Test from './Component/2. Class-component/Test';
@@ -115,15 +116,26 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 
 // import Statewise from './Component/0. React Project/7. Covid 19 Tracker in React/Component/StateWise Data/Statewise';
 
-import API_Using_Axios from './2. Component By Thapa/7. React API Call using Axios/API_Using_Axios';
+// import API_Using_Axios from './2. Component By Thapa/7. React API Call using Axios/API_Using_Axios';
 
 // import ValuShowOnUI from './Component/0. React Project/8. Click on Select Option Value show on UI/ValuShowOnUI';
 
+// <-------------------------> React Hooks end By Imtiyaz <--------------------------->
 
 
 
-// <----------------------------> React Hooks By Imtiyaz <--------------------------->
 
+// <-------------------------> React Router Start By Imtiyaz <--------------------------->
+import AboutUs from './2. Component By Thapa/8. React Router in React Js/1. Pages/AboutUs ';
+import Contact from './2. Component By Thapa/8. React Router in React Js/1. Pages/Contact';
+import Home from './2. Component By Thapa/8. React Router in React Js/1. Pages/Home';
+import Error from './2. Component By Thapa/8. React Router in React Js/1. Pages/Error';
+import Login from './2. Component By Thapa/8. React Router in React Js/1. Pages/Login';
+import NavBar from './2. Component By Thapa/8. React Router in React Js/2. Create Navbar/NavBar';
+
+
+
+// <-------------------------> React Router End By Imtiyaz <--------------------------->
 
 
 
@@ -200,10 +212,11 @@ function App() {
 
             {/* <Route path='/Contact/' element={<Protected Component = {Contact}/>}> */}
             {/* Nested Routes inside the Contac us page */}
+
             {/* <Route path='Company' element={<Company />} />
-                        <Route path='Contact' element={<Contact />} />
-                        <Route path='Other' element={<Other />} />
-                        <Route path='Store' element={<Store />} /> */}
+                 <Route path='Contact' element={<Contact />} />
+                 <Route path='Other' element={<Other />} />
+                 <Route path='Store' element={<Store />} /> */}
 
             {/* </Route> */}
             {/* </Routes> */}
@@ -254,8 +267,30 @@ function App() {
             {/* <UseEffect_Best_Example /> */}
             {/* <Title /> */}
             {/* <Statewise /> */}
-            <API_Using_Axios />
+            {/* <API_Using_Axios /> */}
             {/* <ValuShowOnUI /> */}
+
+
+
+            {/* // <--------------> React Router By Imtiyaz <-------------------> */}
+
+            <BrowserRouter>
+                <NavBar />
+                <Routes>
+                    <Route path="/" element={<Home />} exact />
+                    <Route path='/Contact' element={<Contact />} ></Route>
+                    <Route path='/AboutUs' element={<AboutUs />} ></Route>
+                    <Route path='/Login' element={<Login />} ></Route>
+                    <Route path='/Error' element={<Error />}></Route>
+
+                </Routes>
+
+            </BrowserRouter>
+
+
+            {/* // <--------------> React Router By Imtiyaz <-------------------> */}
+
+
 
         </div>
     );

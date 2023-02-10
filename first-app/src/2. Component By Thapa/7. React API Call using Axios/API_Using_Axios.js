@@ -20,7 +20,6 @@ const API_Using_Axios = () => {
         getData();
     })
 
-
     return (
 
         <>

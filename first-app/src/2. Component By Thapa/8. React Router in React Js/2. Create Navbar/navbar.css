@@ -1,0 +1,27 @@
+.nav li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav{
+    text-align: right;
+}
+
+.Nav-Link {
+ text-decoration: none;
+ font-size: 30px;
+ font-weight: 700;
+ text-transform: capitalize;
+}
+
+.Nav-Link:hover{
+    color: black;
+    border-radius: 30px;
+  
+}
+
+.active{
+    color: rgb(0, 106, 255);
+    font-weight: 700;
+}

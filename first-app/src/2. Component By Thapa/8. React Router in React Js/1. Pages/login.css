@@ -1,0 +1,9 @@
+
+.container{
+    width: 24vw;
+    height: 45vh;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+}
