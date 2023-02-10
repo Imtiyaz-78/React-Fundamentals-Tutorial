@@ -25,6 +25,7 @@ const Statewise = () => {
                 <div className="main-heading">
                     <h1 className="mb-5 text-center"><span className="font-weight-bold">INDIA COVID-19 Dashboard</span></h1>
                 </div>
+
                 <div className="table-responsive">
                     <Table className="table table-hover" variant="white" striped bordered hover>
                         <thead className="thead-dark">
@@ -38,6 +39,7 @@ const Statewise = () => {
                             </tr>
                         </thead>
 
+                       
                         <tbody>
                             {
                                 data.map((curElem, ind) => {
