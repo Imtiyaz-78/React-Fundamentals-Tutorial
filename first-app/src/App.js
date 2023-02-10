@@ -245,10 +245,11 @@ function App() {
             {/* <Title /> */}
             <Statewise />
 
-
-
         </div>
     );
 }
 
 export default App;
+
+
+
