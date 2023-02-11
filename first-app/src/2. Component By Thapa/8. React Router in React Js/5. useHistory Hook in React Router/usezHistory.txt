@@ -1,0 +1,6 @@
+
+1. In react-router-dom v6 useHistory() is replaced by useNavigate().
+2. mainly use of useNavigate() to redirect the user to other page
+
+
+iska code complete nhi ho paya hai nothing understand

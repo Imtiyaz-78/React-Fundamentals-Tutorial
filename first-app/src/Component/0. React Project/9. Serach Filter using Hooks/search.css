@@ -1,0 +1,15 @@
+.Seachbar{
+    margin-top: 5%;
+   
+
+}
+
+.serchnig{
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid lightseagreen;
+    border-radius: 10px;
+}
+.serchnig:focus{
+    outline: none;
+}

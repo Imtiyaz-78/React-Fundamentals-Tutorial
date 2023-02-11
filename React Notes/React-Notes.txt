@@ -558,6 +558,24 @@
    The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>. Child routes inherit all params from their parent routes.
 
 
+3. What is useLocation Hook in React Router:
+  1. useLocation hook returns the current location object. This can be useful if you'd like to  
+     perform some side effect whenever the current location changes.
+     
+  2. useLocation ka humlog mostly use kartey hai current path ko find karne ke liye. Example
+     http://localhost:3000/User/imtiyaz/developer then result will comes --->
+     {My Current Loaction is /User/imtiyaz/developer}
+
+
+4. What is useNavigate Hook in React Router:
+   1. useHistory: This is one of the most popular hooks provided by React Router.
+   2. It give me access the history instance used by React Router.
+   3. Using the useNavigate instance we can redirect users to another page.
+   4. In react-router-dom v6 useHistory() is replaced by useNavigate().
+   5. This is useful any time you need to navigate imperatively, e.g. after the user submits a 
+      form or clicks on a button.
+
+
 
 <============================> React Router Ended By Imtiyaz <============================>
 

@@ -12,12 +12,14 @@ const Accordion = () => {
         <>
             <section className="main-div">
                 <h1>React Interview Questions </h1>
+                
                 {
                     data.map((curElem) => {
-                        return <MyAccordion key={curElem.id} {...curElem} />
+                        return <MyAccordion key = {curElem.id} {...curElem} />
                         //here the spread operator is use to pass the the properties of the questions api
                     })
                 }
+
             </section>
         </>
     )
