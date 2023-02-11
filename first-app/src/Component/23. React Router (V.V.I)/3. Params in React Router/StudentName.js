@@ -1,5 +1,5 @@
-import { useParams, useLocation } from "react-router-dom";
 
+import { useParams, useLocation } from "react-router-dom";
 
 
 function StudentName() {
@@ -7,6 +7,7 @@ function StudentName() {
     console.log(location)
     const params = useParams();
     const { name } = params;
+    
     console.log(name);
     return (
         <div>

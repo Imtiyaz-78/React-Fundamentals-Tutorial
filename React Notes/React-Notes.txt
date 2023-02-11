@@ -548,12 +548,18 @@
 
 
 
-<===============================> React Router Start By Imtiyaz <==========================>
+<=========================> React Router Start By Imtiyaz <=============================>
+1. What id difference between Link and NavLink:
+   Link are work same as these anchor tag but we can't add className with Link in React Js.
+   But with NavLink we can add className in React Js simple
+
+
+2. What is useParams Hook in React Router:
+   The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>. Child routes inherit all params from their parent routes.
 
 
 
-
-<===============================> React Router Ended By Imtiyaz <==========================>
+<============================> React Router Ended By Imtiyaz <============================>
 
 
 

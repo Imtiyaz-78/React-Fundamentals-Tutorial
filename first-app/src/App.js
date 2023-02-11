@@ -132,7 +132,7 @@ import Home from './2. Component By Thapa/8. React Router in React Js/1. Pages/H
 import Error from './2. Component By Thapa/8. React Router in React Js/1. Pages/Error';
 import Login from './2. Component By Thapa/8. React Router in React Js/1. Pages/Login';
 import NavBar from './2. Component By Thapa/8. React Router in React Js/2. Create Navbar/NavBar';
-
+import User from './2. Component By Thapa/8. React Router in React Js/3. useParams Hooks in React Router/User';
 
 
 // <-------------------------> React Router End By Imtiyaz <--------------------------->
@@ -282,7 +282,7 @@ function App() {
                     <Route path='/AboutUs' element={<AboutUs />} ></Route>
                     <Route path='/Login' element={<Login />} ></Route>
                     <Route path='/Error' element={<Error />}></Route>
-
+                    <Route path="/User/:name/:lname" element={<User />}></Route>
                 </Routes>
 
             </BrowserRouter>
