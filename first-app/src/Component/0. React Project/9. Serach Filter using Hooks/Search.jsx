@@ -23,7 +23,8 @@ const Search = () => {
         />
       </div>
 
-      <SearchResult name={img} />
+      {img === "" ? null : <SearchResult name={img} />}
+      
     </>
   );
 };

@@ -2,7 +2,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-// import { BrowserRouter, Routes, Route, Navigate, useSearchParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useSearchParams, Navigate } from 'react-router-dom';
 
 
 // import User from './Component/1. Funtional-component/User';
@@ -125,18 +125,20 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 
 
 // <-------------------------> React Router Start By Imtiyaz <--------------------------->
-/*
+
 import AboutUs from './2. Component By Thapa/8. React Router in React Js/1. Pages/AboutUs ';
 import Contact from './2. Component By Thapa/8. React Router in React Js/1. Pages/Contact';
 import Home from './2. Component By Thapa/8. React Router in React Js/1. Pages/Home';
 import Error from './2. Component By Thapa/8. React Router in React Js/1. Pages/Error';
 import Login from './2. Component By Thapa/8. React Router in React Js/1. Pages/Login';
 import NavBar from './2. Component By Thapa/8. React Router in React Js/2. Create Navbar/NavBar';
-import User from './2. Component By Thapa/8. React Router in React Js/3. useParams Hooks in React Router/User'; 
-*/
+import User from './2. Component By Thapa/8. React Router in React Js/3. useParams Hooks in React Router/User';
+import ErrorHandle from './2. Component By Thapa/8. React Router in React Js/6. React 404 Error Page Not Found/ErrorHandle';
+
+
 
 // Mini Project
-import Search from './Component/0. React Project/9. Serach Filter using Hooks/Search';
+// import Search from './Component/0. React Project/9. Serach Filter using Hooks/Search';
 
 // <-------------------------> React Router End By Imtiyaz <--------------------------->
 
@@ -276,22 +278,24 @@ function App() {
 
 
             {/* // <--------------> React Router By Imtiyaz <-------------------> */}
-           
-            {/* <BrowserRouter> */}
-                {/* <NavBar /> */}
-                {/* <Routes> */}
-                    {/* <Route path="/" element={<Home />} exact /> */}
-                    {/* <Route path='/Contact' element={<Contact />} ></Route> */}
-                    {/* <Route path='/AboutUs' element={<AboutUs />} ></Route> */}
-                    {/* <Route path='/Login' element={<Login />} ></Route> */}
-                    {/* <Route path='/Error' element={<Error />}></Route> */}
-                    {/* <Route path="/User/:name/:lname" element={<User />}></Route> */}
-                {/* </Routes> */}
 
-            {/* </BrowserRouter> */}
+            <BrowserRouter>
+                <NavBar />
+                <Routes>
+                    <Route path="/" element={<Home />} exact />
+                    <Route path='/Contact' element={<Contact />} ></Route>
+                    <Route path='/AboutUs' element={<AboutUs />} ></Route>
+                    <Route path='/Login' element={<Login />} ></Route>
+                    <Route path='/Error' element={<Error />}></Route>
+                    <Route path="/User/:name/:lname" element={<User />}></Route>
+                    {/* <Route path='/*' element={<ErrorHandle />}></Route> */}
+                    <Route path="*" element={<Navigate to="/" />} />
+                </Routes>
+
+            </BrowserRouter>
             {/* // <--------------> React Router By Imtiyaz <-------------------> */}
 
-            <Search />
+            {/* <Search /> */}
 
 
 

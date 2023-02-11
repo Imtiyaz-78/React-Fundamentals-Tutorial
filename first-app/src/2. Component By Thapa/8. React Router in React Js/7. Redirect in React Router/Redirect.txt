@@ -1,0 +1,17 @@
+
+
+1. To use Redirect method first we have to import Navigate Like
+   import { Navigate } from 'react-router-dom';
+
+2. Then use:
+   <BrowserRouter>
+   
+         <NavBar />
+          <Routes>
+             <Route path="*" element={<Navigate to="/" />} />
+         </Routes>
+
+   </BrowserRouter>
+     
+
+   
