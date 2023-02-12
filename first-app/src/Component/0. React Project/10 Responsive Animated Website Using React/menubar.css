@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Oswald&family=Roboto&display=swap');
+
+
+.Menu{
+   font-size: 30px;
+   color: black;
+   font-weight: 600;
+}
+
+.navbar-brand{
+    font-size: 1.9rem !important;
+    color: #565387 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #3498db !important;
+}
+
+.nav-link{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.active{
+    font-weight: 600;
+    border-bottom: 1px solid #565387;
+
+}
+
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+#header h1{
+    margin:  0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+header .navbar-brand{
+    color: #3498db;
+}
+
+header p{
+    color: #484848;
+    font-size: 24px;
+}
+
+@media (max-width: 991px) {
+    .Nav_brand{
+        font-size: 1.5rem !important;
+    }
+    
+}

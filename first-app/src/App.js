@@ -1,8 +1,8 @@
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useSearchParams, Navigate } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route, useSearchParams, Navigate } from 'react-router-dom';
 
 
 // import User from './Component/1. Funtional-component/User';
@@ -62,16 +62,17 @@ import Other from './Component/23. React Router (V.V.I)/5. Nested Routing/Other'
 import Login from './Component/23. React Router (V.V.I)/6. Protected Route/Login';
 import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/Protected';
 */
+// <-------------------------> React Routers <------------------------------------>
 
 
-
-// <-----------------------------> API in React <---------------------------------->
+// <-----------------------------> API in React Start <---------------------------------->
 // import CallGetMethodAPI from './Component/24. API Call in React JS/CallGetMethodAPI';
 // import Post from './Component/24. API Call in React JS/1. Post Method in Rest API/Post';
 // import Delete from './Component/24. API Call in React JS/2. Delete Method with API In React/Delete';
 // import Prefilled from './Component/24. API Call in React JS/3. PreFilled Form Data/Prefilled';
 // import Update from './Component/24. API Call in React JS/4. Update Data With PUT Method API/Update';
 
+// <-----------------------------> API in React Start <---------------------------------->
 
 
 
@@ -82,9 +83,13 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 
 
 
-// <------------------------------> React Redux <--------------------------------->
+
+// <------------------------------> React Redux Start <--------------------------------->
 // import Parents from './Redux in React JS/1. React props First/Parents';
 // import Roots from './Redux in React JS/2. React Redux/Main/Roots';
+
+// <------------------------------> React Redux End <--------------------------------->
+
 
 
 
@@ -125,7 +130,7 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 
 
 // <-------------------------> React Router Start By Imtiyaz <--------------------------->
-
+/*
 import AboutUs from './2. Component By Thapa/8. React Router in React Js/1. Pages/AboutUs ';
 import Contact from './2. Component By Thapa/8. React Router in React Js/1. Pages/Contact';
 import Home from './2. Component By Thapa/8. React Router in React Js/1. Pages/Home';
@@ -134,13 +139,19 @@ import Login from './2. Component By Thapa/8. React Router in React Js/1. Pages/
 import NavBar from './2. Component By Thapa/8. React Router in React Js/2. Create Navbar/NavBar';
 import User from './2. Component By Thapa/8. React Router in React Js/3. useParams Hooks in React Router/User';
 import ErrorHandle from './2. Component By Thapa/8. React Router in React Js/6. React 404 Error Page Not Found/ErrorHandle';
-
-
-
-// Mini Project
-// import Search from './Component/0. React Project/9. Serach Filter using Hooks/Search';
-
+*/
 // <-------------------------> React Router End By Imtiyaz <--------------------------->
+
+
+
+
+// <==============================> React Project  <==============================>
+
+// import Search from './Component/0. React Project/9. Serach Filter using Hooks/Search';
+// import Root from './Component/0. React Project/10 Responsive Animated Website Using React/Root';
+
+
+// <==============================> React Project  <==============================>
 
 
 
@@ -279,23 +290,24 @@ function App() {
 
             {/* // <--------------> React Router By Imtiyaz <-------------------> */}
 
-            <BrowserRouter>
-                <NavBar />
-                <Routes>
-                    <Route path="/" element={<Home />} exact />
+            {/* <BrowserRouter> */}
+            {/* <NavBar /> */}
+            {/* <Routes> */}
+            {/* <Route path="/" element={<Home />} exact />
                     <Route path='/Contact' element={<Contact />} ></Route>
                     <Route path='/AboutUs' element={<AboutUs />} ></Route>
                     <Route path='/Login' element={<Login />} ></Route>
                     <Route path='/Error' element={<Error />}></Route>
                     <Route path="/User/:name/:lname" element={<User />}></Route>
-                    {/* <Route path='/*' element={<ErrorHandle />}></Route> */}
-                    <Route path="*" element={<Navigate to="/" />} />
-                </Routes>
+                    <Route path='/*' element={<ErrorHandle />}></Route>
+                    <Route path="*" element={<Navigate to="/" />} /> */}
+            {/* </Routes> */}
+            {/* </BrowserRouter> */}
 
-            </BrowserRouter>
             {/* // <--------------> React Router By Imtiyaz <-------------------> */}
 
             {/* <Search /> */}
+            {/* <Root /> */}
 
 
 
