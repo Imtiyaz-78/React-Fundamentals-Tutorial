@@ -16,7 +16,6 @@ function Post() {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
             },
-
             body: JSON.stringify(data)
         }).then((resp) => {
             // console.log("resp",resp);
@@ -26,7 +25,7 @@ function Post() {
         })
     }
 
-    
+
     return (
         <div>
             <h1>POST API Example </h1>

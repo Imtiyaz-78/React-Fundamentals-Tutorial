@@ -468,7 +468,7 @@
 ---> Data in React always flow from the parent to child component which makes it unidirectional         
         
              
-1. what is Action:
+1. What is Action:
   1. Action are plain JavaScript object that have a type of filed.
   2. Action only tel what to do, but they dont't tell how to do.
   Example : return {
@@ -478,16 +478,14 @@
 
 
 2. What is Reducer:
-   Reducers are function that take the current state and an function as argument,
+   Reducers are function that take the current state and function as a argument,
    and return a new state result.
 
 
 3. What is Store:
-   1.The Redux store brings Together the state, action and reducers that make up your App.
+   1. The Redux store brings Together the state, action and reducers that make up your App.
    2. It's important to note that you will only have a single store in a redux application.
    3. Every Redux store has a single root reducers function.
-
-
 
 
 
@@ -601,3 +599,5 @@
 
 
 
+
+2 string ko jurna concatination kah lati hai.

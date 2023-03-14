@@ -118,7 +118,7 @@ import Protected from './Component/23. React Router (V.V.I)/6. Protected Route/P
 
 // import Title from './Component/0. React Project/6. Changing_The_Title_value.js/Title';
 
-// import Statewise from './Component/0. React Project/7. Covid 19 Tracker in React/Component/StateWise Data/Statewise';
+import Statewise from './Component/0. React Project/7. Covid 19 Tracker in React/Component/StateWise Data/Statewise';
 
 // import API_Using_Axios from './2. Component By Thapa/7. React API Call using Axios/API_Using_Axios';
 
@@ -282,7 +282,7 @@ function App() {
             {/* <Timer /> */}
             {/* <UseEffect_Best_Example /> */}
             {/* <Title /> */}
-            {/* <Statewise /> */}
+            <Statewise />
             {/* <API_Using_Axios /> */}
             {/* <ValuShowOnUI /> */}
 

@@ -1,6 +1,6 @@
 
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import style from './style.css';
 
 
@@ -21,7 +21,6 @@ const CallGetMethodAPI = () => {
     return (
         <>
             <h1>How to Calling API</h1>
-
 
             <table className='Table'>
                 <tbody>
@@ -59,13 +58,11 @@ const CallGetMethodAPI = () => {
                     )
                 }
 
-
             </table>
-
-
-
         </>
     )
 }
 
-export default CallGetMethodAPI
+export default CallGetMethodAPI; 
+
+
